@@ -1,0 +1,17 @@
+{
+    "conversionType": "object",
+    "fileName": "svg-assets.model",
+    "delimiter": "KEBAB",
+    "srcFiles": [
+      "./assets/**/*.svg"
+    ],
+    "outputDirectory": "./src",
+    "objectName": "SVGAssets",
+    "svgoConfig": {
+      "plugins": [
+        {
+          "cleanupAttrs": true
+        }
+      ]
+    }
+}

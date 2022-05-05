@@ -1,0 +1,45 @@
+{
+  "name": "dhs-symbol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/dhssymbol.js",
+  "scripts": {
+    "generate-icons": "svg-to-ts",
+    "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext .ts --fix",
+    "format": "prettier --config .prettierrc \"src/**/*.ts\" --write",
+    "tsc": "tsc",
+    "bb": "babel build -d buildb --presets=@babel/preset-env",
+    "bfy": "browserify buildb/index.js -d -o dist/dhssymbolbfy.js -s dhs -t [ babelify --global --presets [ @babel/preset-env ] ] -t [ brfs ]",
+    "tfy": "terser dist/dhssymbolbfy.js -o dist/dhssymbol.js -c -m",
+    "prebuild": "npm run generate-icons && npm run lint-and-fix && npm run format",
+    "build": "npm run tsc",
+    "postbuild": "npm run bb && npm run bfy && npm run tfy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "babelify": "^10.0.0",
+    "brfs": "^2.0.2",
+    "browserify": "^16.5.2",
+    "copyfiles": "^2.3.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "svg-to-ts": "^5.0.1",
+    "terser": "^5.3.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.0.16",
+    "@types/node": "^14.6.4",
+    "svgdom": "^0.1.8"
+  }
+}

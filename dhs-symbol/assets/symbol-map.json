@@ -1,0 +1,5765 @@
+{
+  "symbologyName": "NAPSG",
+  "version": "1.0",
+  "frames": [
+    {
+      "frameName": "circle"
+    },
+    {
+      "frameName": "diamond"
+    },
+    {
+      "frameName": "octagon"
+    },
+    {
+      "frameName": "pentagon"
+    },
+    {
+      "frameName": "rectangle"
+    },
+    {
+      "frameName": "rhombus"
+    },
+    {
+      "frameName": "square"
+    },
+    {
+      "frameName": "stadium"
+    },
+    {
+      "frameName": "triangle"
+    },
+    {
+      "frameName": "custom-x",
+      "framePath": "M 0 0 L 100 100 M 0 100 L 100 0 Z"
+    },
+    {
+      "frameName": "none",
+      "framePath": "Z"
+    }
+  ],
+  "catIdLength": 1,
+  "categories": [
+    {
+      "catName": "USAR",
+      "catDesc": "Urban Search and Rescue",
+      "catId": "A",
+      "frameName": "diamond",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "USAR Standard Symbols",
+          "catDesc": "USAR Standard Symbols",
+          "catId": "A",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Structure, No Damage",
+              "iconDesc": "AAA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Structure, Damaged",
+              "iconDesc": "AAB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Structure, Failed",
+              "iconDesc": "AAC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Structure, Destroyed",
+              "iconDesc": "AAD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Victim, Detected",
+              "iconDesc": "AAE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Victim, Confirmed",
+              "iconDesc": "AAF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Shelter in Place",
+              "iconDesc": "AAG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Occupant Assisted",
+              "iconDesc": "AAH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Occupant Evacuated",
+              "iconDesc": "AAI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Occupant Rescued",
+              "iconDesc": "AAJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Occupant Follow-Up Form",
+              "iconDesc": "AAK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Human Remains",
+              "iconDesc": "AAL",
+              "iconId": "L"
+            },
+            {
+              "iconName": "Human Remains Removed",
+              "iconDesc": "AAM",
+              "iconId": "M"
+            },
+            {
+              "iconName": "Animal Issue",
+              "iconDesc": "AAN",
+              "iconId": "N"
+            },
+            {
+              "iconName": "Fire Incident",
+              "iconDesc": "AAO",
+              "iconId": "O"
+            },
+            {
+              "iconName": "Flood/Water Level",
+              "iconDesc": "AAP",
+              "iconId": "P"
+            },
+            {
+              "iconName": "Route Blocked",
+              "iconDesc": "AAQ",
+              "iconId": "Q"
+            },
+            {
+              "iconName": "HazMat Incident",
+              "iconDesc": "AAR",
+              "iconId": "R"
+            },
+            {
+              "iconName": "Helicopter Landing Zone (LZ)",
+              "iconDesc": "AAS",
+              "iconId": "S",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Targeted Search",
+              "iconDesc": "AAT",
+              "iconId": "T",
+              "frameName": "diamond"
+            },
+            {
+              "iconName": "Extra 21",
+              "iconDesc": "AAU",
+              "iconId": "U",
+              "frameName": "pentagon"
+            },
+            {
+              "iconName": "Extra 22",
+              "iconDesc": "AAV",
+              "iconId": "V",
+              "frameName": "pentagon"
+            },
+            {
+              "iconName": "Extra 23",
+              "iconDesc": "AAW",
+              "iconId": "W",
+              "frameName": "pentagon"
+            },
+            {
+              "iconName": "Extra 24",
+              "iconDesc": "AAX",
+              "iconId": "X",
+              "frameName": "pentagon"
+            },
+            {
+              "iconName": "Other (Not Assigned to Extra)",
+              "iconDesc": "AAY",
+              "iconId": "Y",
+              "frameName": "pentagon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catName": "Access Hazards",
+      "catDesc": "Access Hazards",
+      "catId": "B",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "Emergency Access Hazards",
+          "catDesc": "Emergency Access Hazards",
+          "catId": "A",
+          "frameName": "diamond",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "Hazard Access Apparatus Ambulance",
+              "iconDesc": "BAAA",
+              "iconId": "AA"
+            },
+            {
+              "iconName": "Hazard Access Apparatus Fire Engine",
+              "iconDesc": "BAAB",
+              "iconId": "AB"
+            },
+            {
+              "iconName": "Hazard Access Apparatus No Fire Engine",
+              "iconDesc": "BAAC",
+              "iconId": "AC"
+            },
+            {
+              "iconName": "Hazard Access Blocked No Access",
+              "iconDesc": "BAAD",
+              "iconId": "AD"
+            },
+            {
+              "iconName": "Hazard Access Blocked Road",
+              "iconDesc": "BAAE",
+              "iconId": "AE"
+            },
+            {
+              "iconName": "Hazard Access Bridge Do Not Cross",
+              "iconDesc": "BAAF",
+              "iconId": "AF"
+            },
+            {
+              "iconName": "Hazard Access Clearance Low Height No Access Fire Engine",
+              "iconDesc": "BAAG",
+              "iconId": "AG"
+            },
+            {
+              "iconName": "Hazard Access Clearance Low Height No Access",
+              "iconDesc": "BAAH",
+              "iconId": "AH"
+            },
+            {
+              "iconName": "Hazard Access Clearance Low Height",
+              "iconDesc": "BAAI",
+              "iconId": "AI"
+            },
+            {
+              "iconName": "Hazard Access Clearance Narrow No Access Fire Engine",
+              "iconDesc": "BAAJ",
+              "iconId": "AJ"
+            },
+            {
+              "iconName": "Hazard Access Clearance Narrow No Access",
+              "iconDesc": "BAAK",
+              "iconId": "AK"
+            },
+            {
+              "iconName": "Hazard Access Clearance Narrow",
+              "iconDesc": "BAAL",
+              "iconId": "AL"
+            },
+            {
+              "iconName": "Hazard Access No Ladder Truck or Semi Truck Access",
+              "iconDesc": "BAAM",
+              "iconId": "AM"
+            },
+            {
+              "iconName": "Hazard Access No Turnaround Ambulance",
+              "iconDesc": "BAAN",
+              "iconId": "AN"
+            },
+            {
+              "iconName": "Hazard Access No Turnaround Fire Engine",
+              "iconDesc": "BAAO",
+              "iconId": "AO"
+            },
+            {
+              "iconName": "Hazard Access No Turnaround Ladder Truck or Semi Truck",
+              "iconDesc": "BAAP",
+              "iconId": "AP"
+            },
+            {
+              "iconName": "Hazard Access No Turnaround Vehicle General",
+              "iconDesc": "BAAQ",
+              "iconId": "AQ"
+            },
+            {
+              "iconName": "Hazard Access No Turnaround",
+              "iconDesc": "BAAR",
+              "iconId": "AR"
+            },
+            {
+              "iconName": "Hazard Access No Vehicle Access",
+              "iconDesc": "BAAS",
+              "iconId": "AS"
+            },
+            {
+              "iconName": "Hazard Access No Vertical Ladder Access",
+              "iconDesc": "BAAT",
+              "iconId": "AT"
+            },
+            {
+              "iconName": "Hazard Access Poor Access Vehicle General",
+              "iconDesc": "BAAU",
+              "iconId": "AU"
+            },
+            {
+              "iconName": "Hazard Access Restricted Weight",
+              "iconDesc": "BAAV",
+              "iconId": "AV"
+            },
+            {
+              "iconName": "Hazard Access Road Access Vehicle General",
+              "iconDesc": "BAAW",
+              "iconId": "AW"
+            },
+            {
+              "iconName": "Hazard Access Steep Access Difficult",
+              "iconDesc": "BAAX",
+              "iconId": "AX"
+            },
+            {
+              "iconName": "Hazard Access Steep Access Easy",
+              "iconDesc": "BAAY",
+              "iconId": "AY"
+            },
+            {
+              "iconName": "Hazard Access Steep Access Extreme",
+              "iconDesc": "BAAZ",
+              "iconId": "AZ"
+            },
+            {
+              "iconName": "Hazard Access Steep Access General",
+              "iconDesc": "BABA",
+              "iconId": "BA"
+            },
+            {
+              "iconName": "Hazard Access Freeway Turnaround",
+              "iconDesc": "BABB",
+              "iconId": "BB"
+            },
+            {
+              "iconName": "Hazard Access Road Turnaround",
+              "iconDesc": "BABC",
+              "iconId": "BC"
+            },
+            {
+              "iconName": "Tournaround",
+              "iconDesc": "BABD",
+              "iconId": "BD"
+            },
+            {
+              "iconName": "Hazard Steep Access Moderate",
+              "iconDesc": "BABE",
+              "iconId": "BE"
+            },
+            {
+              "iconName": "Hazard Steep Access Vehicle",
+              "iconDesc": "BABF",
+              "iconId": "BF"
+            },
+            {
+              "iconName": "Hazard Access Traffic Circle",
+              "iconDesc": "BABG",
+              "iconId": "BG"
+            },
+            {
+              "iconName": "Hazard Access Aerial",
+              "iconDesc": "BABH",
+              "iconId": "BH"
+            },
+            {
+              "iconName": "Hazard Traffic Calming",
+              "iconDesc": "BABI",
+              "iconId": "BI"
+            },
+            {
+              "iconName": "Hazard No Aerial Access",
+              "iconDesc": "BABJ",
+              "iconId": "BJ"
+            }
+          ]
+        },
+        {
+          "catName": "Emergency Access Points",
+          "catDesc": "Emergency Access Points",
+          "catId": "B",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Emergency Access Ambulance Access",
+              "iconDesc": "BBA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Emergency Access Ladder Truck Access",
+              "iconDesc": "BBB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Emergency Access Pumper Access",
+              "iconDesc": "BBC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Emergency Access Small Vehicle",
+              "iconDesc": "BBD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Emergency Access Tram or Vertical Lift",
+              "iconDesc": "BBE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Emergency Access Walking Access Only",
+              "iconDesc": "BBF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Emergency Access Water Access",
+              "iconDesc": "BBG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Emergency Personnel Access Fire Department Access",
+              "iconDesc": "BBH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Emergency Personnel Access PD Access",
+              "iconDesc": "BBI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Emergency Personnel Access PW Access",
+              "iconDesc": "BBJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Emergency Personnel Access Trail Access",
+              "iconDesc": "BBK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Vehicle Parking",
+              "iconDesc": "BBL",
+              "iconId": "L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catName": "Preplan",
+      "catDesc": "Preplan",
+      "catId": "C",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "Preplan Features",
+          "catDesc": "Preplan Features",
+          "catId": "A",
+          "frameName": "square",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "Addressable Location, Functional area",
+              "iconDesc": "CAAA",
+              "iconId": "AA"
+            },
+            {
+              "iconName": "Addressable Location, Living Space",
+              "iconDesc": "CAAB",
+              "iconId": "AB"
+            },
+            {
+              "iconName": "Addressable Location, Outdoor Space",
+              "iconDesc": "CAAC",
+              "iconId": "AC"
+            },
+            {
+              "iconName": "Addressable Location, Parking",
+              "iconDesc": "CAAD",
+              "iconId": "AD"
+            },
+            {
+              "iconName": "Addressable Location, Repair Build",
+              "iconDesc": "CAAE",
+              "iconId": "AE"
+            },
+            {
+              "iconName": "Addressable Location, Storage",
+              "iconDesc": "CAAF",
+              "iconId": "AF"
+            },
+            {
+              "iconName": "Addressable Location, Utility",
+              "iconDesc": "CAAG",
+              "iconId": "AG"
+            },
+            {
+              "iconName": "Addressable Location, Work Space",
+              "iconDesc": "CAAH",
+              "iconId": "AH"
+            },
+            {
+              "iconName": "Business, Bank",
+              "iconDesc": "CAAI",
+              "iconId": "AI"
+            },
+            {
+              "iconName": "Business, Grocery",
+              "iconDesc": "CAAJ",
+              "iconId": "AJ"
+            },
+            {
+              "iconName": "Business, Retail",
+              "iconDesc": "CAAK",
+              "iconId": "AK"
+            },
+            {
+              "iconName": "Business",
+              "iconDesc": "CAAL",
+              "iconId": "AL"
+            },
+            {
+              "iconName": "Childcare, Child",
+              "iconDesc": "CAAM",
+              "iconId": "AM"
+            },
+            {
+              "iconName": "Childcare, Infant",
+              "iconDesc": "CAAN",
+              "iconId": "AN"
+            },
+            {
+              "iconName": "Electrical Room",
+              "iconDesc": "CAAO",
+              "iconId": "AO"
+            },
+            {
+              "iconName": "Electrical, Transformer",
+              "iconDesc": "CAAP",
+              "iconId": "AP"
+            },
+            {
+              "iconName": "Electrical, Vault",
+              "iconDesc": "CAAQ",
+              "iconId": "AQ"
+            },
+            {
+              "iconName": "Electrical Generator, Battery",
+              "iconDesc": "CAAR",
+              "iconId": "AR"
+            },
+            {
+              "iconName": "Electrical Generator, Diesel",
+              "iconDesc": "CAAS",
+              "iconId": "AS"
+            },
+            {
+              "iconName": "Electrical Generator, Electrical Battery",
+              "iconDesc": "CAAT",
+              "iconId": "AT"
+            },
+            {
+              "iconName": "Electrical Generator, Electrical",
+              "iconDesc": "CAAU",
+              "iconId": "AU"
+            },
+            {
+              "iconName": "Electrical, Powerlines",
+              "iconDesc": "CAAV",
+              "iconId": "AV"
+            },
+            {
+              "iconName": "Fuel Pump, Diesel",
+              "iconDesc": "CAAW",
+              "iconId": "AW"
+            },
+            {
+              "iconName": "Fuel Pump, Regular",
+              "iconDesc": "CAAX",
+              "iconId": "AX"
+            },
+            {
+              "iconName": "Garbage, Dumpster",
+              "iconDesc": "CAAY",
+              "iconId": "AY"
+            },
+            {
+              "iconName": "Garbage, Garbage Chute",
+              "iconDesc": "CAAZ",
+              "iconId": "AZ"
+            },
+            {
+              "iconName": "Garbage, Recycling",
+              "iconDesc": "CABA",
+              "iconId": "BA"
+            },
+            {
+              "iconName": "Location, Air Conditioning",
+              "iconDesc": "CABB",
+              "iconId": "BB"
+            },
+            {
+              "iconName": "Location, Auditorium",
+              "iconDesc": "CABC",
+              "iconId": "BC"
+            },
+            {
+              "iconName": "Location, Auto Carport",
+              "iconDesc": "CABD",
+              "iconId": "BD"
+            },
+            {
+              "iconName": "Location, Auto Garage",
+              "iconDesc": "CABE",
+              "iconId": "BE"
+            },
+            {
+              "iconName": "Location, Gym or Arena",
+              "iconDesc": "CABF",
+              "iconId": "BF"
+            },
+            {
+              "iconName": "Location, Institutional",
+              "iconDesc": "CABG",
+              "iconId": "BG"
+            },
+            {
+              "iconName": "Location, Loading Dock",
+              "iconDesc": "CABH",
+              "iconId": "BH"
+            },
+            {
+              "iconName": "Location, Loading Truck Well",
+              "iconDesc": "CABI",
+              "iconId": "BI"
+            },
+            {
+              "iconName": "Location, Mercantile",
+              "iconDesc": "CABJ",
+              "iconId": "BJ"
+            },
+            {
+              "iconName": "Location, Parking Not",
+              "iconDesc": "CABK",
+              "iconId": "BK"
+            },
+            {
+              "iconName": "Location, Parking",
+              "iconDesc": "CABL",
+              "iconId": "BL"
+            },
+            {
+              "iconName": "Location, Residential",
+              "iconDesc": "CABM",
+              "iconId": "BM"
+            },
+            {
+              "iconName": "Manual, Operations Manual",
+              "iconDesc": "CABN",
+              "iconId": "BN"
+            },
+            {
+              "iconName": "Manual, Materials Safety Data Sheet",
+              "iconDesc": "CABO",
+              "iconId": "BO"
+            },
+            {
+              "iconName": "Medical, AED",
+              "iconDesc": "CABP",
+              "iconId": "BP"
+            },
+            {
+              "iconName": "Medical, First Aid",
+              "iconDesc": "CABQ",
+              "iconId": "BQ"
+            },
+            {
+              "iconName": "Medical, Nurse Station",
+              "iconDesc": "CABR",
+              "iconId": "BR"
+            },
+            {
+              "iconName": "Medical",
+              "iconDesc": "CABS",
+              "iconId": "BS"
+            },
+            {
+              "iconName": "Most Important 1",
+              "iconDesc": "CABT",
+              "iconId": "BT"
+            },
+            {
+              "iconName": "Most Important 2",
+              "iconDesc": "CABU",
+              "iconId": "BU"
+            },
+            {
+              "iconName": "Most Important 3",
+              "iconDesc": "CABV",
+              "iconId": "BV"
+            },
+            {
+              "iconName": "Most Important Feature",
+              "iconDesc": "CABW",
+              "iconId": "BW"
+            },
+            {
+              "iconName": "People, Contact Information",
+              "iconDesc": "CABX",
+              "iconId": "BX"
+            },
+            {
+              "iconName": "People, Handicapped",
+              "iconDesc": "CABY",
+              "iconId": "BY"
+            },
+            {
+              "iconName": "People, Occupant",
+              "iconDesc": "CABZ",
+              "iconId": "BZ"
+            },
+            {
+              "iconName": "Restrooms, Men",
+              "iconDesc": "CACA",
+              "iconId": "CA"
+            },
+            {
+              "iconName": "Restrooms, Women",
+              "iconDesc": "CACB",
+              "iconId": "CB"
+            },
+            {
+              "iconName": "Room, Boiler Room",
+              "iconDesc": "CACC",
+              "iconId": "CC"
+            },
+            {
+              "iconName": "Room, Catwalk",
+              "iconDesc": "CACD",
+              "iconId": "CD"
+            },
+            {
+              "iconName": "Room, Classroom",
+              "iconDesc": "CACE",
+              "iconId": "CE"
+            },
+            {
+              "iconName": "Room, Elevator Room",
+              "iconDesc": "CACF",
+              "iconId": "CF"
+            },
+            {
+              "iconName": "Room, Guard Shack",
+              "iconDesc": "CACG",
+              "iconId": "CG"
+            },
+            {
+              "iconName": "Room, Kitchen",
+              "iconDesc": "CACH",
+              "iconId": "CH"
+            },
+            {
+              "iconName": "Room, Laundry Room",
+              "iconDesc": "CACI",
+              "iconId": "CI"
+            },
+            {
+              "iconName": "Room, Library",
+              "iconDesc": "CACJ",
+              "iconId": "CJ"
+            },
+            {
+              "iconName": "Room, Main Entry",
+              "iconDesc": "CACK",
+              "iconId": "CK"
+            },
+            {
+              "iconName": "Room, Office",
+              "iconDesc": "CACL",
+              "iconId": "CL"
+            },
+            {
+              "iconName": "Room, Storage",
+              "iconDesc": "CACM",
+              "iconId": "CM"
+            },
+            {
+              "iconName": "Room, Telephone Equipment Room",
+              "iconDesc": "CACN",
+              "iconId": "CN"
+            },
+            {
+              "iconName": "Room, Telephone Equipment",
+              "iconDesc": "CACO",
+              "iconId": "CO"
+            },
+            {
+              "iconName": "Room, Utility Room",
+              "iconDesc": "CACP",
+              "iconId": "CP"
+            },
+            {
+              "iconName": "Safety, Decontamination Shower",
+              "iconDesc": "CACQ",
+              "iconId": "CQ"
+            },
+            {
+              "iconName": "Safety, Eyewash",
+              "iconDesc": "CACR",
+              "iconId": "CR"
+            },
+            {
+              "iconName": "Safety, Handwash",
+              "iconDesc": "CACS",
+              "iconId": "CS"
+            },
+            {
+              "iconName": "Safety Location, Fire Extinguisher",
+              "iconDesc": "CACT",
+              "iconId": "CT"
+            },
+            {
+              "iconName": "Safety Location, HVAC",
+              "iconDesc": "CACU",
+              "iconId": "CU"
+            },
+            {
+              "iconName": "Security, Area of Refuge 2",
+              "iconDesc": "CACV",
+              "iconId": "CV"
+            },
+            {
+              "iconName": "Security, Area of Refuge",
+              "iconDesc": "CACW",
+              "iconId": "CW"
+            },
+            {
+              "iconName": "Security, Bomb Shelter",
+              "iconDesc": "CACX",
+              "iconId": "CX"
+            },
+            {
+              "iconName": "Security, Evacuation Shelter",
+              "iconDesc": "CACY",
+              "iconId": "CY"
+            },
+            {
+              "iconName": "Security, Guard",
+              "iconDesc": "CACZ",
+              "iconId": "CZ"
+            },
+            {
+              "iconName": "Security, Safe Room",
+              "iconDesc": "CADA",
+              "iconId": "DA"
+            },
+            {
+              "iconName": "Security, Safe Zone",
+              "iconDesc": "CADB",
+              "iconId": "DB"
+            },
+            {
+              "iconName": "Security, Safe",
+              "iconDesc": "CADC",
+              "iconId": "DC"
+            },
+            {
+              "iconName": "Security, Storm Shelter",
+              "iconDesc": "CADD",
+              "iconId": "DD"
+            },
+            {
+              "iconName": "Restrooms",
+              "iconDesc": "CADE",
+              "iconId": "DE"
+            },
+            {
+              "iconName": "Blank",
+              "iconDesc": "CADF",
+              "iconId": "DF"
+            },
+            {
+              "iconName": "Electrical Generator",
+              "iconDesc": "CADG",
+              "iconId": "DG"
+            },
+            {
+              "iconName": "Emergency Control Station",
+              "iconDesc": "CADH",
+              "iconId": "DH"
+            },
+            {
+              "iconName": "Fire Pump",
+              "iconDesc": "CADI",
+              "iconId": "DI"
+            },
+            {
+              "iconName": "Garbage",
+              "iconDesc": "CADJ",
+              "iconId": "DJ"
+            },
+            {
+              "iconName": "Manual",
+              "iconDesc": "CADK",
+              "iconId": "DK"
+            },
+            {
+              "iconName": "Room, Catwalk",
+              "iconDesc": "CADL",
+              "iconId": "DL"
+            },
+            {
+              "iconName": "Room, Kitchen",
+              "iconDesc": "CADM",
+              "iconId": "DM"
+            },
+            {
+              "iconName": "Room, Laundry Room",
+              "iconDesc": "CADN",
+              "iconId": "DN"
+            },
+            {
+              "iconName": "Room, Main Entry",
+              "iconDesc": "CADO",
+              "iconId": "DO"
+            }
+          ]
+        },
+        {
+          "catName": "Fire Suppression",
+          "catDesc": "Fire Suppression",
+          "catId": "B",
+          "frameName": "circle",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "Fire Department Connection, Combination Sprinkler Standpipe",
+              "iconDesc": "CBAA",
+              "iconId": "AA"
+            },
+            {
+              "iconName": "Fire Department Connection, FDC1",
+              "iconDesc": "CBAB",
+              "iconId": "AB"
+            },
+            {
+              "iconName": "Fire Department Connection, FDC2",
+              "iconDesc": "CBAC",
+              "iconId": "AC"
+            },
+            {
+              "iconName": "Fire Department Connection, Sprinkler Connection",
+              "iconDesc": "CBAD",
+              "iconId": "AD"
+            },
+            {
+              "iconName": "Fire Department Connection, Standpipe Connection",
+              "iconDesc": "CBAE",
+              "iconId": "AE"
+            },
+            {
+              "iconName": "Fire Hose Connection, Hose Connection",
+              "iconDesc": "CBAF",
+              "iconId": "AF"
+            },
+            {
+              "iconName": "Fire Hose Connection, Hose Connection Wet",
+              "iconDesc": "CBAG",
+              "iconId": "AG"
+            },
+            {
+              "iconName": "Fire Pump, With Drive",
+              "iconDesc": "CBAH",
+              "iconId": "AH"
+            },
+            {
+              "iconName": "Fire Pump, without Drive",
+              "iconDesc": "CBAI",
+              "iconId": "AI"
+            },
+            {
+              "iconName": "Hose Connection, Dry",
+              "iconDesc": "CBAJ",
+              "iconId": "AJ"
+            },
+            {
+              "iconName": "Hose Reel, CO2",
+              "iconDesc": "CBAK",
+              "iconId": "AK"
+            },
+            {
+              "iconName": "Hose Reel, Dry Chemical",
+              "iconDesc": "CBAL",
+              "iconId": "AL"
+            },
+            {
+              "iconName": "Hose Reel, Dry",
+              "iconDesc": "CBAM",
+              "iconId": "AM"
+            },
+            {
+              "iconName": "Hose Reel, Foam",
+              "iconDesc": "CBAN",
+              "iconId": "AN"
+            },
+            {
+              "iconName": "Hose Reel, Wet",
+              "iconDesc": "CBAO",
+              "iconId": "AO"
+            },
+            {
+              "iconName": "Monitor, Charged",
+              "iconDesc": "CBAP",
+              "iconId": "AP"
+            },
+            {
+              "iconName": "Monitor, Dry",
+              "iconDesc": "CBAQ",
+              "iconId": "AQ"
+            },
+            {
+              "iconName": "Riser Dry",
+              "iconDesc": "CBAR",
+              "iconId": "AR"
+            },
+            {
+              "iconName": "Riser Wet",
+              "iconDesc": "CBAS",
+              "iconId": "AS"
+            },
+            {
+              "iconName": "Sprinkler Control Valve, Non Indicating Valve",
+              "iconDesc": "CBAT",
+              "iconId": "AT"
+            },
+            {
+              "iconName": "Sprinkler Control Valve, Outside Screw and Yoke",
+              "iconDesc": "CBAU",
+              "iconId": "AU"
+            },
+            {
+              "iconName": "Sprinkler Control Valve, Post Indicating Valve",
+              "iconDesc": "CBAV",
+              "iconId": "AV"
+            },
+            {
+              "iconName": "Sprinkler Control Valve, Wall Post Indicating Valve",
+              "iconDesc": "CBAW",
+              "iconId": "AW"
+            },
+            {
+              "iconName": "Sprinkler Control Valve, Zone Valve",
+              "iconDesc": "CBAX",
+              "iconId": "AX"
+            },
+            {
+              "iconName": "Sprinkler System, Dry",
+              "iconDesc": "CBAY",
+              "iconId": "AY"
+            },
+            {
+              "iconName": "Sprinkler System, PreAction",
+              "iconDesc": "CBAZ",
+              "iconId": "AZ"
+            },
+            {
+              "iconName": "Sprinkler System, Semi Automatic",
+              "iconDesc": "CBBA",
+              "iconId": "BA"
+            },
+            {
+              "iconName": "Sprinkler System, Sprinkler Deluge",
+              "iconDesc": "CBBB",
+              "iconId": "BB"
+            },
+            {
+              "iconName": "Water Source, Drafting Site",
+              "iconDesc": "CBBC",
+              "iconId": "BC"
+            },
+            {
+              "iconName": "Water Source, Dry Hydrant",
+              "iconDesc": "CBBD",
+              "iconId": "BD"
+            },
+            {
+              "iconName": "Water Source, Hydrant Fire",
+              "iconDesc": "CBBE",
+              "iconId": "BE"
+            },
+            {
+              "iconName": "Water Source, Static",
+              "iconDesc": "CBBF",
+              "iconId": "BF"
+            },
+            {
+              "iconName": "Water Source, Water Inlet",
+              "iconDesc": "CBBG",
+              "iconId": "BG"
+            },
+            {
+              "iconName": "Fire Pump",
+              "iconDesc": "CBBH",
+              "iconId": "BH"
+            },
+            {
+              "iconName": "Sprinkler Control Valve",
+              "iconDesc": "CBBI",
+              "iconId": "BI"
+            },
+            {
+              "iconName": "Sprinkler System, Sprinkler General",
+              "iconDesc": "CBBJ",
+              "iconId": "BJ"
+            }
+          ]
+        },
+        {
+          "catName": "Alarm and Detectors",
+          "catDesc": "Alarm and Detectors",
+          "catId": "C",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "Alarm",
+              "iconDesc": "CCAA",
+              "iconId": "AA"
+            },
+            {
+              "iconName": "Alarm Communications, Annunciator Panel",
+              "iconDesc": "CCAB",
+              "iconId": "AB"
+            },
+            {
+              "iconName": "Alarm Control Panel",
+              "iconDesc": "CCAC",
+              "iconId": "AC"
+            },
+            {
+              "iconName": "Alarm Control Panel, Burglar Alarm",
+              "iconDesc": "CCAD",
+              "iconId": "AD"
+            },
+            {
+              "iconName": "Alarm Control Panel, FAC",
+              "iconDesc": "CCAE",
+              "iconId": "AE"
+            },
+            {
+              "iconName": "Alarm Control Panel, Fire Alarm Control Panel",
+              "iconDesc": "CCAF",
+              "iconId": "AF"
+            },
+            {
+              "iconName": "Alarm Control Panel, Switchboard Panel",
+              "iconDesc": "CCAG",
+              "iconId": "AG"
+            },
+            {
+              "iconName": "Alarm Control Panel, Voice Control Panel",
+              "iconDesc": "CCAH",
+              "iconId": "AH"
+            },
+            {
+              "iconName": "FTR",
+              "iconDesc": "CCAI",
+              "iconId": "AI"
+            },
+            {
+              "iconName": "Reset Panel",
+              "iconDesc": "CCAJ",
+              "iconId": "AJ"
+            },
+            {
+              "iconName": "Smoke Panel",
+              "iconDesc": "CCAK",
+              "iconId": "AK"
+            },
+            {
+              "iconName": "Voice Control Panel",
+              "iconDesc": "CCAL",
+              "iconId": "AL"
+            },
+            {
+              "iconName": "Detector Frame",
+              "iconDesc": "CCAM",
+              "iconId": "AM",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Detector",
+              "iconDesc": "CCAN",
+              "iconId": "AN",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Duct Detector",
+              "iconDesc": "CCAO",
+              "iconId": "AO",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Duct Detector, Flame",
+              "iconDesc": "CCAP",
+              "iconId": "AP",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Duct Detector, Flow",
+              "iconDesc": "CCAQ",
+              "iconId": "AQ",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Duct Detector, Gas",
+              "iconDesc": "CCAR",
+              "iconId": "AR",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Duct Detector, Heat",
+              "iconDesc": "CCAS",
+              "iconId": "AS",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Duct Detector, Level",
+              "iconDesc": "CCAT",
+              "iconId": "AT",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Duct Detector, Smoke",
+              "iconDesc": "CCAU",
+              "iconId": "AU",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Gas Detector Pressure",
+              "iconDesc": "CCAV",
+              "iconId": "AV",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Heat Detector",
+              "iconDesc": "CCAW",
+              "iconId": "AW",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Smoke Detector",
+              "iconDesc": "CCAX",
+              "iconId": "AX",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Smoke Detector, Beam",
+              "iconDesc": "CCAY",
+              "iconId": "AY",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Smoke Detector, Flow Switch",
+              "iconDesc": "CCAZ",
+              "iconId": "AZ",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Smoke Detector, Ionization",
+              "iconDesc": "CCBA",
+              "iconId": "BA",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Smoke Detector, Photoelectric",
+              "iconDesc": "CCBB",
+              "iconId": "BB",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Smoke Detector, Tamper Detector",
+              "iconDesc": "CCBC",
+              "iconId": "BC",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Smoke Detector, Tamper Switch",
+              "iconDesc": "CCBD",
+              "iconId": "BD",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Smoke Detector",
+              "iconDesc": "CCBE",
+              "iconId": "BE",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Gas Detector",
+              "iconDesc": "CCBF",
+              "iconId": "BF",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Heat Detector, Fixed Temp",
+              "iconDesc": "CCBG",
+              "iconId": "BG",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Heat Detector, Rate Compensate",
+              "iconDesc": "CCBH",
+              "iconId": "BH",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Heat Detector, Rate Fixed",
+              "iconDesc": "CCBI",
+              "iconId": "BI",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Heat Detector, Rate of Rise",
+              "iconDesc": "CCBJ",
+              "iconId": "BJ",
+              "frameName": "rhombus"
+            },
+            {
+              "iconName": "Heat Detector",
+              "iconDesc": "CCBK",
+              "iconId": "BK",
+              "frameName": "rhombus"
+            }
+          ]
+        },
+        {
+          "catName": "Feature Shutoff",
+          "catDesc": "Feature Shutoff",
+          "catId": "D",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "Plain",
+              "iconDesc": "CDAA",
+              "iconId": "AA"
+            },
+            {
+              "iconName": "Air Handling",
+              "iconDesc": "CDAB",
+              "iconId": "AB"
+            },
+            {
+              "iconName": "CNG",
+              "iconDesc": "CDAC",
+              "iconId": "AC"
+            },
+            {
+              "iconName": "CNG (Compressed Natural Gas), Main",
+              "iconDesc": "CDAD",
+              "iconId": "AD"
+            },
+            {
+              "iconName": "CNG (Compressed Natural Gas), Sub",
+              "iconDesc": "CDAE",
+              "iconId": "AE"
+            },
+            {
+              "iconName": "Electrical",
+              "iconDesc": "CDAF",
+              "iconId": "AF"
+            },
+            {
+              "iconName": "Electrical, Main",
+              "iconDesc": "CDAG",
+              "iconId": "AG"
+            },
+            {
+              "iconName": "Electrical, Sub",
+              "iconDesc": "CDAH",
+              "iconId": "AH"
+            },
+            {
+              "iconName": "Fuel",
+              "iconDesc": "CDAI",
+              "iconId": "AI"
+            },
+            {
+              "iconName": "Fuel, Main",
+              "iconDesc": "CDAJ",
+              "iconId": "AJ"
+            },
+            {
+              "iconName": "Fuel Pipeline",
+              "iconDesc": "CDAK",
+              "iconId": "AK"
+            },
+            {
+              "iconName": "Fuel, Sub",
+              "iconDesc": "CDAL",
+              "iconId": "AL"
+            },
+            {
+              "iconName": "Gas",
+              "iconDesc": "CDAM",
+              "iconId": "AM"
+            },
+            {
+              "iconName": "Gas, Main",
+              "iconDesc": "CDAN",
+              "iconId": "AN"
+            },
+            {
+              "iconName": "Gas, Sub",
+              "iconDesc": "CDAO",
+              "iconId": "AO"
+            },
+            {
+              "iconName": "LNG",
+              "iconDesc": "CDAP",
+              "iconId": "AP"
+            },
+            {
+              "iconName": "LNG, Main",
+              "iconDesc": "CDAQ",
+              "iconId": "AQ"
+            },
+            {
+              "iconName": "LNG, Sub (Propane)",
+              "iconDesc": "CDAR",
+              "iconId": "AR"
+            },
+            {
+              "iconName": "Oxygen",
+              "iconDesc": "CDAS",
+              "iconId": "AS"
+            },
+            {
+              "iconName": "Product Shutoff",
+              "iconDesc": "CDAT",
+              "iconId": "AT"
+            },
+            {
+              "iconName": "Refrigeration",
+              "iconDesc": "CDAU",
+              "iconId": "AU"
+            },
+            {
+              "iconName": "Refrigeration, Main",
+              "iconDesc": "CDAV",
+              "iconId": "AV"
+            },
+            {
+              "iconName": "Refrigeration, Sub",
+              "iconDesc": "CDAW",
+              "iconId": "AW"
+            },
+            {
+              "iconName": "Solar Panel",
+              "iconDesc": "CDAX",
+              "iconId": "AX"
+            },
+            {
+              "iconName": "Solar Panel, Main",
+              "iconDesc": "CDAY",
+              "iconId": "AY"
+            },
+            {
+              "iconName": "Solar Panel, Sub",
+              "iconDesc": "CDAZ",
+              "iconId": "AZ"
+            },
+            {
+              "iconName": "Steam",
+              "iconDesc": "CDBA",
+              "iconId": "BA"
+            },
+            {
+              "iconName": "Steam, Main",
+              "iconDesc": "CDBB",
+              "iconId": "BB"
+            },
+            {
+              "iconName": "Telecommunications",
+              "iconDesc": "CDBC",
+              "iconId": "BC"
+            },
+            {
+              "iconName": "Telecommunications MAIN",
+              "iconDesc": "CDBD",
+              "iconId": "BD"
+            },
+            {
+              "iconName": "Telecommunications Network",
+              "iconDesc": "CDBE",
+              "iconId": "BE"
+            },
+            {
+              "iconName": "Telecommunications TV",
+              "iconDesc": "CDBF",
+              "iconId": "BF"
+            },
+            {
+              "iconName": "Water Shutoff",
+              "iconDesc": "CDBG",
+              "iconId": "BG"
+            },
+            {
+              "iconName": "Water Shutoff, Main",
+              "iconDesc": "CDBH",
+              "iconId": "BH"
+            },
+            {
+              "iconName": "Water Shutoff, Sub",
+              "iconDesc": "CDBI",
+              "iconId": "BI"
+            }
+          ]
+        },
+        {
+          "catName": "Vertical Access Features",
+          "catDesc": "Vertical Access Features",
+          "catId": "E",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Elevator",
+              "iconDesc": "CEA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Stairs, Double",
+              "iconDesc": "CEB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Stairs, Lift",
+              "iconDesc": "CEC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Stairs, Spiral",
+              "iconDesc": "CED",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Stairs, Single",
+              "iconDesc": "CEE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Attic Access",
+              "iconDesc": "CEF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Crawl Space Hatch",
+              "iconDesc": "CEG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Escalator",
+              "iconDesc": "CEH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Fire Escape",
+              "iconDesc": "CEI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Hatch",
+              "iconDesc": "CEJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Roof Access",
+              "iconDesc": "CEK",
+              "iconId": "K"
+            }
+          ]
+        },
+        {
+          "catName": "Key or Knox Box",
+          "catDesc": "Key or Knox Box",
+          "catId": "F",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Knox or Key Box, Door Entry",
+              "iconDesc": "CFA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Knox or Key Box, Drug Vault",
+              "iconDesc": "CFB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Knox or Key Box, Keycard",
+              "iconDesc": "CFC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Knox or Key Box, Key Shunt",
+              "iconDesc": "CFD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Knox or Key Box, Plain",
+              "iconDesc": "CFE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Knox or Key Box, Residential",
+              "iconDesc": "CFF",
+              "iconId": "F"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catName": "Resources",
+      "catDesc": "Resources",
+      "catId": "D",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "Emergency Response Resources",
+          "catDesc": "Emergency Response Resources",
+          "catId": "A",
+          "frameName": "stadium",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "Type 1 Resource, Animal Health, Incident Management Team",
+              "iconDesc": "DAAA",
+              "iconId": "AA"
+            },
+            {
+              "iconName": "Type 1 Resource, Animal Health, Large Animal Rescue Team",
+              "iconDesc": "DAAB",
+              "iconId": "AB"
+            },
+            {
+              "iconName": "Type 1 Resource, Animal Health, Large Animal Sheltering Team",
+              "iconDesc": "DAAC",
+              "iconId": "AC"
+            },
+            {
+              "iconName": "Type 1 Resource, Animal Health, Large Animal Transport Team",
+              "iconDesc": "DAAD",
+              "iconId": "AD"
+            },
+            {
+              "iconName": "Type 1 Resource, Animal Health, Small Animal Rescue Team",
+              "iconDesc": "DAAE",
+              "iconId": "AE"
+            },
+            {
+              "iconName": "Type 1 Resource, Animal Health, Small Animal Sheltering Team",
+              "iconDesc": "DAAF",
+              "iconId": "AF"
+            },
+            {
+              "iconName": "Type 1 Resource, Animal Health, Small Animal Transport Team",
+              "iconDesc": "DAAG",
+              "iconId": "AG"
+            },
+            {
+              "iconName": "Type 2 Resource, Incident Management Team (IMT), Area Command",
+              "iconDesc": "DAAH",
+              "iconId": "AH"
+            },
+            {
+              "iconName": "Type 2 Resource, Incident Management Team (IMT), Civil Air Patrol (CAP)",
+              "iconDesc": "DAAI",
+              "iconId": "AI"
+            },
+            {
+              "iconName": "Type 2 Resource, Incident Management Team (IMT), Critical Incident Stress Management",
+              "iconDesc": "DAAJ",
+              "iconId": "AJ"
+            },
+            {
+              "iconName": "Type 2 Resource, Incident Management Team (IMT), Disaster Assessment",
+              "iconDesc": "DAAK",
+              "iconId": "AK"
+            },
+            {
+              "iconName": "Type 2 Resource, Incident Management Team (IMT), Evacuation Coordination Team",
+              "iconDesc": "DAAL",
+              "iconId": "AL"
+            },
+            {
+              "iconName": "Type 2 Resource, Incident Management Team (IMT), Incident Management Team",
+              "iconDesc": "DAAM",
+              "iconId": "AM"
+            },
+            {
+              "iconName": "Type 2 Resource, Incident Management Team (IMT), Mobile Emergency Operations Center",
+              "iconDesc": "DAAN",
+              "iconId": "AN"
+            },
+            {
+              "iconName": "Type 2 Resource, Incident Management Team (IMT), Mobile Kitchen",
+              "iconDesc": "DAAO",
+              "iconId": "AO"
+            },
+            {
+              "iconName": "Type 2 Resource, Incident Management Team (IMT), Volunteer Liaison Team",
+              "iconDesc": "DAAP",
+              "iconId": "AP"
+            },
+            {
+              "iconName": "Type 3 Resource, Emergency Medical System (EMS) Ambulance, Air",
+              "iconDesc": "DAAQ",
+              "iconId": "AQ"
+            },
+            {
+              "iconName": "Type 3 Resource, Emergency Medical System (EMS), Ambulance Fixed Wing Air",
+              "iconDesc": "DAAR",
+              "iconId": "AR"
+            },
+            {
+              "iconName": "Type 3 Resource, Emergency Medical System (EMS), Ambulance Ground",
+              "iconDesc": "DAAS",
+              "iconId": "AS"
+            },
+            {
+              "iconName": "Type 3 Resource, Emergency Medical System (EMS), Critical Transportation Multiple Patient",
+              "iconDesc": "DAAT",
+              "iconId": "AT"
+            },
+            {
+              "iconName": "Type 3 Resource, Emergency Medical System (EMS), MCI Support Vehicle",
+              "iconDesc": "DAAU",
+              "iconId": "AU"
+            },
+            {
+              "iconName": "Type 3 Resource, Emergency Medical System (EMS), Strike Team Ambulance",
+              "iconDesc": "DAAV",
+              "iconId": "AV"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Aerial Apparatus Ladder",
+              "iconDesc": "DAAW",
+              "iconId": "AW"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, ARFF",
+              "iconDesc": "DAAX",
+              "iconId": "AX"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Brush",
+              "iconDesc": "DAAY",
+              "iconId": "AY"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Command",
+              "iconDesc": "DAAZ",
+              "iconId": "AZ"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Crew Transport",
+              "iconDesc": "DABA",
+              "iconId": "BA"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Engine Pumper",
+              "iconDesc": "DABB",
+              "iconId": "BB"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Fire Boat",
+              "iconDesc": "DABC",
+              "iconId": "BC"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Foam Tender",
+              "iconDesc": "DABD",
+              "iconId": "BD"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Fuel Tender",
+              "iconDesc": "DABE",
+              "iconId": "BE"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Hand Crew",
+              "iconDesc": "DABF",
+              "iconId": "BF"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, HazMat",
+              "iconDesc": "DABG",
+              "iconId": "BG"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Helicopter",
+              "iconDesc": "DABH",
+              "iconId": "BH"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Helitanker",
+              "iconDesc": "DABI",
+              "iconId": "BI"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Mobile Communication Unit",
+              "iconDesc": "DABJ",
+              "iconId": "BJ"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Rescue",
+              "iconDesc": "DABK",
+              "iconId": "BK"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Strike Team Aerial Ladder",
+              "iconDesc": "DABL",
+              "iconId": "BL"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Strike Team Brush Truck",
+              "iconDesc": "DABM",
+              "iconId": "BM"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Strike Team Engine",
+              "iconDesc": "DABN",
+              "iconId": "BN"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Strike Team US Coast Guard",
+              "iconDesc": "DABO",
+              "iconId": "BO"
+            },
+            {
+              "iconName": "Type 4 Resource, Fire HazMat, Water Tender Tanker",
+              "iconDesc": "DABP",
+              "iconId": "BP"
+            },
+            {
+              "iconName": "Type 6 Resource, Law Enforcement, Bomb Squad",
+              "iconDesc": "DABQ",
+              "iconId": "BQ"
+            },
+            {
+              "iconName": "Type 6 Resource, Law Enforcement, Fixed Wing Recon",
+              "iconDesc": "DABR",
+              "iconId": "BR"
+            },
+            {
+              "iconName": "Type 6 Resource, Law Enforcement, Helicopter",
+              "iconDesc": "DABS",
+              "iconId": "BS"
+            },
+            {
+              "iconName": "Type 6 Resource, Law Enforcement, Law Enforcement Patrol Strike Team",
+              "iconDesc": "DABT",
+              "iconId": "BT"
+            },
+            {
+              "iconName": "Type 6 Resource, Law Enforcement, Law Enforcement Patrol",
+              "iconDesc": "DABU",
+              "iconId": "BU"
+            },
+            {
+              "iconName": "Type 6 Resource, Law Enforcement, Mobile Field Force Law Enforcement Crowd Control Teams",
+              "iconDesc": "DABV",
+              "iconId": "BV"
+            },
+            {
+              "iconName": "Type 6 Resource, Law Enforcement, Public Safety Dive Team",
+              "iconDesc": "DABW",
+              "iconId": "BW"
+            },
+            {
+              "iconName": "Type 6 Resource, Law Enforcement, SWAT",
+              "iconDesc": "DABX",
+              "iconId": "BX"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Bulldozer",
+              "iconDesc": "DABY",
+              "iconId": "BY"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Bus",
+              "iconDesc": "DABZ",
+              "iconId": "BZ"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Crane Lattice",
+              "iconDesc": "DACA",
+              "iconId": "CA"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Damage Assessment",
+              "iconDesc": "DACB",
+              "iconId": "CB"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Dump Truck",
+              "iconDesc": "DACC",
+              "iconId": "CC"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Front Excavator",
+              "iconDesc": "DACD",
+              "iconId": "CD"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Grader",
+              "iconDesc": "DACE",
+              "iconId": "CE"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Hydraulic Crane",
+              "iconDesc": "DACF",
+              "iconId": "CF"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Loader Tracked",
+              "iconDesc": "DACG",
+              "iconId": "CG"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Loader",
+              "iconDesc": "DACH",
+              "iconId": "CH"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Road Sweeper",
+              "iconDesc": "DACI",
+              "iconId": "CI"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Scraper",
+              "iconDesc": "DACJ",
+              "iconId": "CJ"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Snow Blower, Front Loader",
+              "iconDesc": "DACK",
+              "iconId": "CK"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Snow Blower, Truck",
+              "iconDesc": "DACL",
+              "iconId": "CL"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Snow Cat",
+              "iconDesc": "DACM",
+              "iconId": "CM"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Snow Plow, Loader Mounted",
+              "iconDesc": "DACN",
+              "iconId": "CN"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Snow Plow",
+              "iconDesc": "DACO",
+              "iconId": "CO"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Tug Boat",
+              "iconDesc": "DACP",
+              "iconId": "CP"
+            },
+            {
+              "iconName": "Type 7 Resource, Public Works, Wheel Loader, Backhoe",
+              "iconDesc": "DACQ",
+              "iconId": "CQ"
+            },
+            {
+              "iconName": "Type 8 Resource, Search and Rescue, Air Search Team (Fixed Wing)",
+              "iconDesc": "DACR",
+              "iconId": "CR"
+            },
+            {
+              "iconName": "Type 8 Resource, Search and Rescue, Airborne Reconnaissance (Fixed Wing)",
+              "iconDesc": "DACS",
+              "iconId": "CS"
+            },
+            {
+              "iconName": "Type 8 Resource, Search and Rescue, Canine Search and Rescue Team",
+              "iconDesc": "DACT",
+              "iconId": "CT"
+            },
+            {
+              "iconName": "Type 8 Resource, Search and Rescue, Cave Search and Rescue Team",
+              "iconDesc": "DACU",
+              "iconId": "CU"
+            },
+            {
+              "iconName": "Type 8 Resource, Search and Rescue, Mine and Tunnel Search and Rescue Team",
+              "iconDesc": "DACV",
+              "iconId": "CV"
+            },
+            {
+              "iconName": "Type 8 Resource, Search and Rescue, Mountain Search and Rescue Team",
+              "iconDesc": "DACW",
+              "iconId": "CW"
+            },
+            {
+              "iconName": "Type 8 Resource, Search and Rescue, Radio Direction Finding Team",
+              "iconDesc": "DACX",
+              "iconId": "CX"
+            },
+            {
+              "iconName": "Type 8 Resource, Search and Rescue, Structural Collapse Rescue Team",
+              "iconDesc": "DACY",
+              "iconId": "CY"
+            },
+            {
+              "iconName": "Type 8 Resource, Search and Rescue, Swiftwater Flood Search and Rescue Team",
+              "iconDesc": "DACZ",
+              "iconId": "CZ"
+            },
+            {
+              "iconName": "Type 8 Resource, Search and Rescue, Urban Search and Rescue Task Force",
+              "iconDesc": "DADA",
+              "iconId": "DA"
+            },
+            {
+              "iconName": "Type 8 Resource, Search and Rescue, USAR Incident Support Team",
+              "iconDesc": "DADB",
+              "iconId": "DB"
+            },
+            {
+              "iconName": "Type 8 Resource, Search and Rescue, Wilderness Search and Rescue Team",
+              "iconDesc": "DADC",
+              "iconId": "DC"
+            },
+            {
+              "iconName": "Type 12 Resource, Public Health",
+              "iconDesc": "DADD",
+              "iconId": "DD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catName": "NIMS Positions",
+      "catDesc": "NIMS Positions",
+      "catId": "E",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "NIMS Organization Positions",
+          "catDesc": "NIMS Organization Positions",
+          "catId": "A",
+          "frameName": "rectangle",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "Blank Frame",
+              "iconDesc": "EAAA",
+              "iconId": "AA"
+            },
+            {
+              "iconName": "Incident Commander (Simple)",
+              "iconDesc": "EAAB",
+              "iconId": "AB"
+            },
+            {
+              "iconName": "Incident Commander (with Graphic)",
+              "iconDesc": "EAAC",
+              "iconId": "AC"
+            },
+            {
+              "iconName": "Deputy Incident Commander",
+              "iconDesc": "EAAD",
+              "iconId": "AD"
+            },
+            {
+              "iconName": "Deputy Incident Commander (with Graphic)",
+              "iconDesc": "EAAE",
+              "iconId": "AE"
+            },
+            {
+              "iconName": "Staff PIO, Public Information Officer",
+              "iconDesc": "EAAF",
+              "iconId": "AF"
+            },
+            {
+              "iconName": "Section PIO, Public Information Officer (with Graphic)",
+              "iconDesc": "EAAG",
+              "iconId": "AG"
+            },
+            {
+              "iconName": "Staff LNO, Liaison Officer",
+              "iconDesc": "EAAH",
+              "iconId": "AH"
+            },
+            {
+              "iconName": "Staff LNO, Liaison Officer (with Graphic)",
+              "iconDesc": "EAAI",
+              "iconId": "AI"
+            },
+            {
+              "iconName": "Staff SO, Safety Officer",
+              "iconDesc": "EAAJ",
+              "iconId": "AJ"
+            },
+            {
+              "iconName": "Staff SO, Safety Officer",
+              "iconDesc": "EAAK",
+              "iconId": "AK"
+            },
+            {
+              "iconName": "Section, Logistics",
+              "iconDesc": "EAAL",
+              "iconId": "AL"
+            },
+            {
+              "iconName": "Section, Finance",
+              "iconDesc": "EAAM",
+              "iconId": "AM"
+            },
+            {
+              "iconName": "Section, Operations",
+              "iconDesc": "EAAN",
+              "iconId": "AN"
+            },
+            {
+              "iconName": "Section, Planning",
+              "iconDesc": "EAAO",
+              "iconId": "AO"
+            },
+            {
+              "iconName": "BRANCH, Air",
+              "iconDesc": "EAAP",
+              "iconId": "AP"
+            },
+            {
+              "iconName": "BRANCH, Air",
+              "iconDesc": "EAAQ",
+              "iconId": "AQ"
+            },
+            {
+              "iconName": "BRANCH, EMS",
+              "iconDesc": "EAAR",
+              "iconId": "AR"
+            },
+            {
+              "iconName": "BRANCH, EMS",
+              "iconDesc": "EAAS",
+              "iconId": "AS"
+            },
+            {
+              "iconName": "BRANCH, FIRE",
+              "iconDesc": "EAAT",
+              "iconId": "AT"
+            },
+            {
+              "iconName": "BRANCH, FIRE",
+              "iconDesc": "EAAU",
+              "iconId": "AU"
+            },
+            {
+              "iconName": "BRANCH, HazMat",
+              "iconDesc": "EAAV",
+              "iconId": "AV"
+            },
+            {
+              "iconName": "BRANCH, HazMat",
+              "iconDesc": "EAAW",
+              "iconId": "AW"
+            },
+            {
+              "iconName": "BRANCH, LAW",
+              "iconDesc": "EAAX",
+              "iconId": "AX"
+            },
+            {
+              "iconName": "BRANCH, LAW",
+              "iconDesc": "EAAY",
+              "iconId": "AY"
+            },
+            {
+              "iconName": "BRANCH, Public Works",
+              "iconDesc": "EAAZ",
+              "iconId": "AZ"
+            },
+            {
+              "iconName": "BRANCH, Public Works",
+              "iconDesc": "EABA",
+              "iconId": "BA"
+            },
+            {
+              "iconName": "BRANCH, SAR",
+              "iconDesc": "EABB",
+              "iconId": "BB"
+            },
+            {
+              "iconName": "BRANCH, SAR",
+              "iconDesc": "EABC",
+              "iconId": "BC"
+            },
+            {
+              "iconName": "BRANCH I",
+              "iconDesc": "EABD",
+              "iconId": "BD"
+            },
+            {
+              "iconName": "BRANCH I",
+              "iconDesc": "EABE",
+              "iconId": "BE"
+            },
+            {
+              "iconName": "BRANCH II",
+              "iconDesc": "EABF",
+              "iconId": "BF"
+            },
+            {
+              "iconName": "BRANCH II",
+              "iconDesc": "EABG",
+              "iconId": "BG"
+            },
+            {
+              "iconName": "BRANCH III",
+              "iconDesc": "EABH",
+              "iconId": "BH"
+            },
+            {
+              "iconName": "BRANCH III",
+              "iconDesc": "EABI",
+              "iconId": "BI"
+            },
+            {
+              "iconName": "BRANCH IV",
+              "iconDesc": "EABJ",
+              "iconId": "BJ"
+            },
+            {
+              "iconName": "BRANCH IV",
+              "iconDesc": "EABK",
+              "iconId": "BK"
+            },
+            {
+              "iconName": "BRANCH V",
+              "iconDesc": "EABL",
+              "iconId": "BL"
+            },
+            {
+              "iconName": "BRANCH V",
+              "iconDesc": "EABM",
+              "iconId": "BM"
+            },
+            {
+              "iconName": "BRANCH VI",
+              "iconDesc": "EABN",
+              "iconId": "BN"
+            },
+            {
+              "iconName": "BRANCH VI",
+              "iconDesc": "EABO",
+              "iconId": "BO"
+            },
+            {
+              "iconName": "BRANCH VII",
+              "iconDesc": "EABP",
+              "iconId": "BP"
+            },
+            {
+              "iconName": "BRANCH VII",
+              "iconDesc": "EABQ",
+              "iconId": "BQ"
+            },
+            {
+              "iconName": "BRANCH IIX",
+              "iconDesc": "EABR",
+              "iconId": "BR"
+            },
+            {
+              "iconName": "BRANCH IIX",
+              "iconDesc": "EABS",
+              "iconId": "BS"
+            },
+            {
+              "iconName": "BRANCH IX",
+              "iconDesc": "EABT",
+              "iconId": "BT"
+            },
+            {
+              "iconName": "BRANCH IX",
+              "iconDesc": "EABU",
+              "iconId": "BU"
+            },
+            {
+              "iconName": "BRANCH X",
+              "iconDesc": "EABV",
+              "iconId": "BV"
+            },
+            {
+              "iconName": "BRANCH X",
+              "iconDesc": "EABW",
+              "iconId": "BW"
+            },
+            {
+              "iconName": "DIVISION 1",
+              "iconDesc": "EABX",
+              "iconId": "BX"
+            },
+            {
+              "iconName": "DIVISION 1",
+              "iconDesc": "EABY",
+              "iconId": "BY"
+            },
+            {
+              "iconName": "DIVISION 2",
+              "iconDesc": "EABZ",
+              "iconId": "BZ"
+            },
+            {
+              "iconName": "DIVISION 2",
+              "iconDesc": "EACA",
+              "iconId": "CA"
+            },
+            {
+              "iconName": "DIVISION 3",
+              "iconDesc": "EACB",
+              "iconId": "CB"
+            },
+            {
+              "iconName": "DIVISION 3",
+              "iconDesc": "EACC",
+              "iconId": "CC"
+            },
+            {
+              "iconName": "DIVISION 4",
+              "iconDesc": "EACD",
+              "iconId": "CD"
+            },
+            {
+              "iconName": "DIVISION 4",
+              "iconDesc": "EACE",
+              "iconId": "CE"
+            },
+            {
+              "iconName": "DIVISION 5",
+              "iconDesc": "EACF",
+              "iconId": "CF"
+            },
+            {
+              "iconName": "DIVISION 5",
+              "iconDesc": "EACG",
+              "iconId": "CG"
+            },
+            {
+              "iconName": "DIVISION 6",
+              "iconDesc": "EACH",
+              "iconId": "CH"
+            },
+            {
+              "iconName": "DIVISION 6",
+              "iconDesc": "EACI",
+              "iconId": "CI"
+            },
+            {
+              "iconName": "DIVISION 7",
+              "iconDesc": "EACJ",
+              "iconId": "CJ"
+            },
+            {
+              "iconName": "DIVISION 7",
+              "iconDesc": "EACK",
+              "iconId": "CK"
+            },
+            {
+              "iconName": "DIVISION 8",
+              "iconDesc": "EACL",
+              "iconId": "CL"
+            },
+            {
+              "iconName": "DIVISION 8",
+              "iconDesc": "EACM",
+              "iconId": "CM"
+            },
+            {
+              "iconName": "DIVISION 9",
+              "iconDesc": "EACN",
+              "iconId": "CN"
+            },
+            {
+              "iconName": "DIVISION 9",
+              "iconDesc": "EACO",
+              "iconId": "CO"
+            },
+            {
+              "iconName": "DIVISION 10",
+              "iconDesc": "EACP",
+              "iconId": "CP"
+            },
+            {
+              "iconName": "DIVISION 10",
+              "iconDesc": "EACQ",
+              "iconId": "CQ"
+            },
+            {
+              "iconName": "DIVISION A",
+              "iconDesc": "EACR",
+              "iconId": "CR"
+            },
+            {
+              "iconName": "DIVISION A",
+              "iconDesc": "EACS",
+              "iconId": "CS"
+            },
+            {
+              "iconName": "DIVISION B",
+              "iconDesc": "EACT",
+              "iconId": "CT"
+            },
+            {
+              "iconName": "DIVISION B",
+              "iconDesc": "EACU",
+              "iconId": "CU"
+            },
+            {
+              "iconName": "DIVISION C",
+              "iconDesc": "EACV",
+              "iconId": "CV"
+            },
+            {
+              "iconName": "DIVISION C",
+              "iconDesc": "EACW",
+              "iconId": "CW"
+            },
+            {
+              "iconName": "DIVISION D",
+              "iconDesc": "EACX",
+              "iconId": "CX"
+            },
+            {
+              "iconName": "DIVISION D",
+              "iconDesc": "EACY",
+              "iconId": "CY"
+            },
+            {
+              "iconName": "DIVISION E",
+              "iconDesc": "EACZ",
+              "iconId": "CZ"
+            },
+            {
+              "iconName": "DIVISION E",
+              "iconDesc": "EADA",
+              "iconId": "DA"
+            },
+            {
+              "iconName": "DIVISION F",
+              "iconDesc": "EADB",
+              "iconId": "DB"
+            },
+            {
+              "iconName": "DIVISION F",
+              "iconDesc": "EADC",
+              "iconId": "DC"
+            },
+            {
+              "iconName": "DIVISION G",
+              "iconDesc": "EADD",
+              "iconId": "DD"
+            },
+            {
+              "iconName": "DIVISION G",
+              "iconDesc": "EADE",
+              "iconId": "DE"
+            },
+            {
+              "iconName": "GROUP, EMS",
+              "iconDesc": "EADF",
+              "iconId": "DF"
+            },
+            {
+              "iconName": "GROUP, EMS",
+              "iconDesc": "EADG",
+              "iconId": "DG"
+            },
+            {
+              "iconName": "GROUP, SAR",
+              "iconDesc": "EADH",
+              "iconId": "DH"
+            },
+            {
+              "iconName": "GROUP, Medical",
+              "iconDesc": "EADI",
+              "iconId": "DI"
+            },
+            {
+              "iconName": "GROUP, Medical",
+              "iconDesc": "EADJ",
+              "iconId": "DJ"
+            },
+            {
+              "iconName": "GROUP, Rescue",
+              "iconDesc": "EADK",
+              "iconId": "DK"
+            },
+            {
+              "iconName": "GROUP, Rescue",
+              "iconDesc": "EADL",
+              "iconId": "DL"
+            },
+            {
+              "iconName": "GROUP, Rapid Intervention",
+              "iconDesc": "EADM",
+              "iconId": "DM"
+            },
+            {
+              "iconName": "GROUP, Rapid Intervention",
+              "iconDesc": "EADN",
+              "iconId": "DN"
+            },
+            {
+              "iconName": "GROUP, SEARCH",
+              "iconDesc": "EADO",
+              "iconId": "DO"
+            },
+            {
+              "iconName": "GROUP, SEARCH",
+              "iconDesc": "EADP",
+              "iconId": "DP"
+            },
+            {
+              "iconName": "GROUP, VENT",
+              "iconDesc": "EADQ",
+              "iconId": "DQ"
+            },
+            {
+              "iconName": "GROUP, VENT",
+              "iconDesc": "EADR",
+              "iconId": "DR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catName": "Human Caused Hazards",
+      "catDesc": "Human Caused Hazards",
+      "catId": "F",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "Human Caused Hazards",
+          "catDesc": "Human Caused Hazards",
+          "catId": "A",
+          "frameName": "diamond",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Explosion Hazard",
+              "iconDesc": "FAA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Fire Commercial Hazard",
+              "iconDesc": "FAB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Fire Forest Hazard",
+              "iconDesc": "FAC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Fire House Hazard",
+              "iconDesc": "FAD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Fire Industrial Hazard",
+              "iconDesc": "FAE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Fire Other Hazard",
+              "iconDesc": "FAF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Fire School Hazard",
+              "iconDesc": "FAG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "HazMat Release Hazard",
+              "iconDesc": "FAH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Other Hazard",
+              "iconDesc": "FAI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Plane Crash",
+              "iconDesc": "FAJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Radiological General Hazard",
+              "iconDesc": "FAK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Radiological Nuclear Power Hazard",
+              "iconDesc": "FAL",
+              "iconId": "L"
+            },
+            {
+              "iconName": "Structural Collapse Hazard",
+              "iconDesc": "FAM",
+              "iconId": "M"
+            },
+            {
+              "iconName": "Train Derailment",
+              "iconDesc": "FAN",
+              "iconId": "N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catName": "Public Alert",
+      "catDesc": "Public Alert",
+      "catId": "G",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "Public Alert and Warnings",
+          "catDesc": "Public Alert and Warnings",
+          "catId": "A",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "911 Telephone Outage Emergency",
+              "iconDesc": "GAAA",
+              "iconId": "AA"
+            },
+            {
+              "iconName": "Avalanche Warning",
+              "iconDesc": "GAAB",
+              "iconId": "AB"
+            },
+            {
+              "iconName": "Avalanche Watch",
+              "iconDesc": "GAAC",
+              "iconId": "AC"
+            },
+            {
+              "iconName": "Blizzard Warning",
+              "iconDesc": "GAAD",
+              "iconId": "AD"
+            },
+            {
+              "iconName": "Blue Alert",
+              "iconDesc": "GAAE",
+              "iconId": "AE"
+            },
+            {
+              "iconName": "Child Abduction Emergency",
+              "iconDesc": "GAAF",
+              "iconId": "AF"
+            },
+            {
+              "iconName": "Civil Danger Warning",
+              "iconDesc": "GAAG",
+              "iconId": "AG"
+            },
+            {
+              "iconName": "Civil Emergency Message",
+              "iconDesc": "GAAH",
+              "iconId": "AH"
+            },
+            {
+              "iconName": "Coastal Flood Warning",
+              "iconDesc": "GAAI",
+              "iconId": "AI"
+            },
+            {
+              "iconName": "Coastal Flood Watch",
+              "iconDesc": "GAAJ",
+              "iconId": "AJ"
+            },
+            {
+              "iconName": "Dust Storm Warning",
+              "iconDesc": "GAAK",
+              "iconId": "AK"
+            },
+            {
+              "iconName": "Earthquake Warning",
+              "iconDesc": "GAAL",
+              "iconId": "AL"
+            },
+            {
+              "iconName": "Emergency Action Notification National",
+              "iconDesc": "GAAM",
+              "iconId": "AM"
+            },
+            {
+              "iconName": "Evacuation Immediate",
+              "iconDesc": "GAAN",
+              "iconId": "AN"
+            },
+            {
+              "iconName": "Extreme Wind Warning",
+              "iconDesc": "GAAO",
+              "iconId": "AO"
+            },
+            {
+              "iconName": "Fire Warning",
+              "iconDesc": "GAAP",
+              "iconId": "AP"
+            },
+            {
+              "iconName": "Flash Flood Statement",
+              "iconDesc": "GAAQ",
+              "iconId": "AQ"
+            },
+            {
+              "iconName": "Flash Flood Warning",
+              "iconDesc": "GAAR",
+              "iconId": "AR"
+            },
+            {
+              "iconName": "Flash Flood Watch",
+              "iconDesc": "GAAS",
+              "iconId": "AS"
+            },
+            {
+              "iconName": "Flood Statement",
+              "iconDesc": "GAAT",
+              "iconId": "AT"
+            },
+            {
+              "iconName": "Flood Warning",
+              "iconDesc": "GAAU",
+              "iconId": "AU"
+            },
+            {
+              "iconName": "Flood Watch",
+              "iconDesc": "GAAV",
+              "iconId": "AV"
+            },
+            {
+              "iconName": "Hazardous Materials Warning",
+              "iconDesc": "GAAW",
+              "iconId": "AW"
+            },
+            {
+              "iconName": "High Wind Warning",
+              "iconDesc": "GAAX",
+              "iconId": "AX"
+            },
+            {
+              "iconName": "High Wind Watch",
+              "iconDesc": "GAAY",
+              "iconId": "AY"
+            },
+            {
+              "iconName": "Hurricane Statement",
+              "iconDesc": "GAAZ",
+              "iconId": "AZ"
+            },
+            {
+              "iconName": "Hurricane Warning",
+              "iconDesc": "GABA",
+              "iconId": "BA"
+            },
+            {
+              "iconName": "Hurricane Watch",
+              "iconDesc": "GABB",
+              "iconId": "BB"
+            },
+            {
+              "iconName": "Law Enforcement Warning",
+              "iconDesc": "GABC",
+              "iconId": "BC"
+            },
+            {
+              "iconName": "Local Area Emergency",
+              "iconDesc": "GABD",
+              "iconId": "BD"
+            },
+            {
+              "iconName": "Nuclear Power Plant Warning",
+              "iconDesc": "GABE",
+              "iconId": "BE"
+            },
+            {
+              "iconName": "Radiological Hazard Warning",
+              "iconDesc": "GABF",
+              "iconId": "BF"
+            },
+            {
+              "iconName": "Severe Thunderstorm Warning",
+              "iconDesc": "GABG",
+              "iconId": "BG"
+            },
+            {
+              "iconName": "Severe Thunderstorm Watch",
+              "iconDesc": "GABH",
+              "iconId": "BH"
+            },
+            {
+              "iconName": "Severe Weather Statement",
+              "iconDesc": "GABI",
+              "iconId": "BI"
+            },
+            {
+              "iconName": "Special Weather Statement",
+              "iconDesc": "GABJ",
+              "iconId": "BJ"
+            },
+            {
+              "iconName": "Shelter In Place",
+              "iconDesc": "GABK",
+              "iconId": "BK"
+            },
+            {
+              "iconName": "Special Marine Warning",
+              "iconDesc": "GABL",
+              "iconId": "BL"
+            },
+            {
+              "iconName": "Storm Surge Warning",
+              "iconDesc": "GABM",
+              "iconId": "BM"
+            },
+            {
+              "iconName": "Storm Surge Watch",
+              "iconDesc": "GABN",
+              "iconId": "BN"
+            },
+            {
+              "iconName": "Tornado Warning",
+              "iconDesc": "GABO",
+              "iconId": "BO"
+            },
+            {
+              "iconName": "Tornado Watch",
+              "iconDesc": "GABP",
+              "iconId": "BP"
+            },
+            {
+              "iconName": "Tropical Storm Warning",
+              "iconDesc": "GABQ",
+              "iconId": "BQ"
+            },
+            {
+              "iconName": "Tropical Storm Watch",
+              "iconDesc": "GABR",
+              "iconId": "BR"
+            },
+            {
+              "iconName": "Tsunami Warning",
+              "iconDesc": "GABS",
+              "iconId": "BS"
+            },
+            {
+              "iconName": "Tsunami Watch",
+              "iconDesc": "GABT",
+              "iconId": "BT"
+            },
+            {
+              "iconName": "Volcano Warning",
+              "iconDesc": "GABU",
+              "iconId": "BU"
+            },
+            {
+              "iconName": "Winter Storm Warning",
+              "iconDesc": "GABV",
+              "iconId": "BV"
+            },
+            {
+              "iconName": "Winter Storm Watch",
+              "iconDesc": "GABW",
+              "iconId": "BW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catName": "Incident",
+      "catDesc": "Incident",
+      "catId": "H",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "Incident Intelligence",
+          "catDesc": "Incident Intelligence",
+          "catId": "A",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "Cell Phone, Signal Level 1",
+              "iconDesc": "HAAA",
+              "iconId": "AA",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Emergency Locating Transmitter, Signal Level 1",
+              "iconDesc": "HAAB",
+              "iconId": "AB",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Portable Locating Transmitter, Signal Level 1",
+              "iconDesc": "HAAC",
+              "iconId": "AC",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Cell Phone, Signal Level 2",
+              "iconDesc": "HAAD",
+              "iconId": "AD",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Emergency Locating Transmitter, Signal Level 2",
+              "iconDesc": "HAAE",
+              "iconId": "AE",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Portable Locating Transmitter, Signal Level 2",
+              "iconDesc": "HAAF",
+              "iconId": "AF",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Cell Phone, Signal Level 3",
+              "iconDesc": "HAAG",
+              "iconId": "AG",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Emergency Locating Transmitter, Signal Level 3",
+              "iconDesc": "HAAH",
+              "iconId": "AH",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Portable Locating Transmitter, Signal Level 3",
+              "iconDesc": "HAAI",
+              "iconId": "AI",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Reporting Party",
+              "iconDesc": "HAAJ",
+              "iconId": "AJ",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Sensor, Biological",
+              "iconDesc": "HAAK",
+              "iconId": "AK",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Sensor, Chemical",
+              "iconDesc": "HAAL",
+              "iconId": "AL",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Sensor, General",
+              "iconDesc": "HAAM",
+              "iconId": "AM",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Sensor, Intruder",
+              "iconDesc": "HAAN",
+              "iconId": "AN",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Sensor, Radiological",
+              "iconDesc": "HAAO",
+              "iconId": "AO",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Sensor, Weather",
+              "iconDesc": "HAAP",
+              "iconId": "AP",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Datum, Start",
+              "iconDesc": "HAAQ",
+              "iconId": "AQ"
+            },
+            {
+              "iconName": "Datum, Finish",
+              "iconDesc": "HAAR",
+              "iconId": "AR"
+            },
+            {
+              "iconName": "Datum, Generic",
+              "iconDesc": "HAAS",
+              "iconId": "AS"
+            },
+            {
+              "iconName": "Lookout",
+              "iconDesc": "HAAT",
+              "iconId": "AT"
+            },
+            {
+              "iconName": "IR Downlink",
+              "iconDesc": "HAAU",
+              "iconId": "AU",
+              "frameName": "square"
+            },
+            {
+              "iconName": "Communication Operations Generic",
+              "iconDesc": "HAAV",
+              "iconId": "AV",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Communication Operations, Repeater",
+              "iconDesc": "HAAW",
+              "iconId": "AW",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Repeater, NWCG",
+              "iconDesc": "HAAX",
+              "iconId": "AX",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Communication Operations, Telephone",
+              "iconDesc": "HAAY",
+              "iconId": "AY",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Telephone, NWCG",
+              "iconDesc": "HAAZ",
+              "iconId": "AZ",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Clues that are known",
+              "iconDesc": "HABA",
+              "iconId": "BA",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Clue found, not relevant",
+              "iconDesc": "HABB",
+              "iconId": "BB",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Clue found, not relevant unknown",
+              "iconDesc": "HABC",
+              "iconId": "BC",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Initial Planning Point Missing Persons (SAR) & Fugitive Search (LE)",
+              "iconDesc": "HABD",
+              "iconId": "BD",
+              "frameName": "circle"
+            }
+          ]
+        },
+        {
+          "catName": "Incident Resources",
+          "catDesc": "Incident Resources",
+          "catId": "B",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "HazMat Features, Absorption",
+              "iconDesc": "HBAA",
+              "iconId": "AA",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "HazMat Features, Dam",
+              "iconDesc": "HBAB",
+              "iconId": "AB",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "HazMat Features, Decontamination",
+              "iconDesc": "HBAC",
+              "iconId": "AC",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "HazMat Features, Decontamination, Ambulatory",
+              "iconDesc": "HBAD",
+              "iconId": "AD",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "HazMat Features, Decontamination, Non-Ambulatory",
+              "iconDesc": "HBAE",
+              "iconId": "AE",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "HazMat Features, Dike",
+              "iconDesc": "HBAF",
+              "iconId": "AF",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "HazMat Features, Diversion",
+              "iconDesc": "HBAG",
+              "iconId": "AG",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "HazMat Features, Foam",
+              "iconDesc": "HBAH",
+              "iconId": "AH",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Area Command Post",
+              "iconDesc": "HBAI",
+              "iconId": "AI"
+            },
+            {
+              "iconName": "Command Post Plain",
+              "iconDesc": "HBAJ",
+              "iconId": "AJ"
+            },
+            {
+              "iconName": "Command Post",
+              "iconDesc": "HBAK",
+              "iconId": "AK"
+            },
+            {
+              "iconName": "Emergency Operations Center",
+              "iconDesc": "HBAL",
+              "iconId": "AL"
+            },
+            {
+              "iconName": "Incident Command Post",
+              "iconDesc": "HBAM",
+              "iconId": "AM"
+            },
+            {
+              "iconName": "Joint Operations Center",
+              "iconDesc": "HBAN",
+              "iconId": "AN"
+            },
+            {
+              "iconName": "Multi Agency Coordination Center",
+              "iconDesc": "HBAO",
+              "iconId": "AO"
+            },
+            {
+              "iconName": "Base",
+              "iconDesc": "HBAP",
+              "iconId": "AP",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Base, NWCG",
+              "iconDesc": "HBAQ",
+              "iconId": "AQ",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Camp",
+              "iconDesc": "HBAR",
+              "iconId": "AR",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Camp, NWCG",
+              "iconDesc": "HBAS",
+              "iconId": "AS",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Barrier, Emergency Access Only",
+              "iconDesc": "HBAT",
+              "iconId": "AT",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Barrier",
+              "iconDesc": "HBAU",
+              "iconId": "AU",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Barrier, With Security",
+              "iconDesc": "HBAV",
+              "iconId": "AV",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Barrier, with Checkpoint",
+              "iconDesc": "HBAW",
+              "iconId": "AW",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Bomb, Containment",
+              "iconDesc": "HBAX",
+              "iconId": "AX",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Bomb, Detonation Location",
+              "iconDesc": "HBAY",
+              "iconId": "AY",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Civilian Staging, Not Specific",
+              "iconDesc": "HBAZ",
+              "iconId": "AZ",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Civilian Staging, Animal Reunification",
+              "iconDesc": "HBBA",
+              "iconId": "BA",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Civilian Staging, Family Reunification",
+              "iconDesc": "HBBB",
+              "iconId": "BB",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Civilian Staging, Transit",
+              "iconDesc": "HBBC",
+              "iconId": "BC",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Civilian Staging, Volunteer",
+              "iconDesc": "HBBD",
+              "iconId": "BD",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "EMS, Plain",
+              "iconDesc": "HBBE",
+              "iconId": "BE",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Responder First Aid",
+              "iconDesc": "HBBF",
+              "iconId": "BF",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "EMS, Casualty Collection Point",
+              "iconDesc": "HBBG",
+              "iconId": "BG",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "EMS, Treatment Plain",
+              "iconDesc": "HBBH",
+              "iconId": "BH",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Medical Supply Cache",
+              "iconDesc": "HBBI",
+              "iconId": "BI",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "EMS, Triage",
+              "iconDesc": "HBBJ",
+              "iconId": "BJ",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "EMS, ALS",
+              "iconDesc": "HBBK",
+              "iconId": "BK",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "EMS, BLS",
+              "iconDesc": "HBBL",
+              "iconId": "BL",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "EMS, ILS",
+              "iconDesc": "HBBM",
+              "iconId": "BM",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "EMS, Treatment Plain",
+              "iconDesc": "HBBN",
+              "iconId": "BN",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Landing Zone, Helibase",
+              "iconDesc": "HBBO",
+              "iconId": "BO",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Landing Zone, Marine Dock",
+              "iconDesc": "HBBP",
+              "iconId": "BP",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Landing Zone, Marine Launch Site",
+              "iconDesc": "HBBQ",
+              "iconId": "BQ",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Marine Landing Zone",
+              "iconDesc": "HBBR",
+              "iconId": "BR",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Public Information",
+              "iconDesc": "HBBS",
+              "iconId": "BS",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Public Information Media",
+              "iconDesc": "HBBT",
+              "iconId": "BT",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Staging",
+              "iconDesc": "HBBU",
+              "iconId": "BU",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Staging, NWCG",
+              "iconDesc": "HBBV",
+              "iconId": "BV",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Staging, Air",
+              "iconDesc": "HBBW",
+              "iconId": "BW",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Staging, Critical Incident Stress Management",
+              "iconDesc": "HBBX",
+              "iconId": "BX",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Staging, EMS",
+              "iconDesc": "HBBY",
+              "iconId": "BY",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Staging, Equipment",
+              "iconDesc": "HBBZ",
+              "iconId": "BZ",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Staging, Faith",
+              "iconDesc": "HBCA",
+              "iconId": "CA",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Staging, Fire",
+              "iconDesc": "HBCB",
+              "iconId": "CB",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Staging, Law Enforcement",
+              "iconDesc": "HBCC",
+              "iconId": "CC",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Staging, Priority 1",
+              "iconDesc": "HBCD",
+              "iconId": "CD",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Staging, Priority 2",
+              "iconDesc": "HBCE",
+              "iconId": "CE",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Staging, Rehab",
+              "iconDesc": "HBCF",
+              "iconId": "CF",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Supply Distribution Center",
+              "iconDesc": "HBCG",
+              "iconId": "CG",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "SWAT",
+              "iconDesc": "HBCH",
+              "iconId": "CH",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "SWAT, Rehearsal Area",
+              "iconDesc": "HBCI",
+              "iconId": "CI",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "SWAT, Sniper Location",
+              "iconDesc": "HBCJ",
+              "iconId": "CJ",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "SWAT, Standoff Location",
+              "iconDesc": "HBCK",
+              "iconId": "CK",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "SWAT, Canine",
+              "iconDesc": "HBCL",
+              "iconId": "CL",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "SWAT, EMT",
+              "iconDesc": "HBCM",
+              "iconId": "CM",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "SWAT, Hostage Negotation",
+              "iconDesc": "HBCN",
+              "iconId": "CN",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "SWAT Rally Point",
+              "iconDesc": "HBCO",
+              "iconId": "CO",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Water, Fire Hydrant",
+              "iconDesc": "HBCP",
+              "iconId": "CP",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Water Point, Helicopter",
+              "iconDesc": "HBCQ",
+              "iconId": "CQ",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Water Point, Retardent",
+              "iconDesc": "HBCR",
+              "iconId": "CR",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Water Point, Vehicle",
+              "iconDesc": "HBCS",
+              "iconId": "CS",
+              "frameName": "circle"
+            },
+            {
+              "iconName": "Water Point, General",
+              "iconDesc": "HBCT",
+              "iconId": "CT",
+              "frameName": "circle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catName": "Natural Hazards",
+      "catDesc": "Natural Hazards",
+      "catId": "I",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "Natural Hazards",
+          "catDesc": "Natural Hazards",
+          "catId": "A",
+          "frameName": "diamond",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Avalanche",
+              "iconDesc": "IAA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Earthquake",
+              "iconDesc": "IAB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Flood",
+              "iconDesc": "IAC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Hurricane",
+              "iconDesc": "IAD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Landslide",
+              "iconDesc": "IAE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Mine Collapse",
+              "iconDesc": "IAF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Severe or Extreme Storm",
+              "iconDesc": "IAG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Snow Event",
+              "iconDesc": "IAH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Tornado",
+              "iconDesc": "IAI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Tsunami",
+              "iconDesc": "IAJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Volcano",
+              "iconDesc": "IAK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Windstorm",
+              "iconDesc": "IAL",
+              "iconId": "L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catName": "Hazardous Materials",
+      "catDesc": "Hazardous Materials",
+      "catId": "J",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "Hazardous Materials",
+          "catDesc": "Hazardous Materials",
+          "catId": "A",
+          "frameName": "diamond",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "HazMat DOT Placarding, Class 1 Blasting Agent 1.5",
+              "iconDesc": "JAAA",
+              "iconId": "AA"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 1 Explosives 1.1",
+              "iconDesc": "JAAB",
+              "iconId": "AB"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 1 Explosives 1.2",
+              "iconDesc": "JAAC",
+              "iconId": "AC"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 1 Explosives 1.3",
+              "iconDesc": "JAAD",
+              "iconId": "AD"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 1 Explosives 1.4",
+              "iconDesc": "JAAE",
+              "iconId": "AE"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 1 Explosives 1.5",
+              "iconDesc": "JAAF",
+              "iconId": "AF"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 1 Explosives 1.6",
+              "iconDesc": "JAAG",
+              "iconId": "AG"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 1 Explosives",
+              "iconDesc": "JAAH",
+              "iconId": "AH"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 2 Chlorine",
+              "iconDesc": "JAAI",
+              "iconId": "AI"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 2 Flammable Gas 2.1",
+              "iconDesc": "JAAJ",
+              "iconId": "AJ"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 2 Flammable Liquid",
+              "iconDesc": "JAAK",
+              "iconId": "AK"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 2 Flammable Solid",
+              "iconDesc": "JAAL",
+              "iconId": "AL"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 2 Inhalation Hazards 2.3",
+              "iconDesc": "JAAM",
+              "iconId": "AM"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 2 Non Flammable Gas 2.2",
+              "iconDesc": "JAAN",
+              "iconId": "AN"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 2 Oxygen 2.2",
+              "iconDesc": "JAAO",
+              "iconId": "AO"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 3 Combustible",
+              "iconDesc": "JAAP",
+              "iconId": "AP"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 3 Flammable",
+              "iconDesc": "JAAQ",
+              "iconId": "AQ"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 3 Fuel Oil",
+              "iconDesc": "JAAR",
+              "iconId": "AR"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 3 Gasoline",
+              "iconDesc": "JAAS",
+              "iconId": "AS"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 4 Dangerous When Wet",
+              "iconDesc": "JAAT",
+              "iconId": "AT"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 4 Flammable Solids",
+              "iconDesc": "JAAU",
+              "iconId": "AU"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 4 Spontaneously Combustible",
+              "iconDesc": "JAAV",
+              "iconId": "AV"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 5 Organic Peroxides 5.1",
+              "iconDesc": "JAAW",
+              "iconId": "AW"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 5 Organic Peroxides 5.2",
+              "iconDesc": "JAAX",
+              "iconId": "AX"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 6 Infectious",
+              "iconDesc": "JAAY",
+              "iconId": "AY"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 6 Inhalation Hazards",
+              "iconDesc": "JAAZ",
+              "iconId": "AZ"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 6 Poison Gas",
+              "iconDesc": "JABA",
+              "iconId": "BA"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 6 Poisons",
+              "iconDesc": "JABB",
+              "iconId": "BB"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 6 Toxic Gas",
+              "iconDesc": "JABC",
+              "iconId": "BC"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 6 Toxic",
+              "iconDesc": "JABD",
+              "iconId": "BD"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 7 Radioactive",
+              "iconDesc": "JABE",
+              "iconId": "BE"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 8 Acids",
+              "iconDesc": "JABF",
+              "iconId": "BF"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 8 Alkaline",
+              "iconDesc": "JABG",
+              "iconId": "BG"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 8 Corrosive",
+              "iconDesc": "JABH",
+              "iconId": "BH"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class 9",
+              "iconDesc": "JABI",
+              "iconId": "BI"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class Other, DANGEROUS",
+              "iconDesc": "JABJ",
+              "iconId": "BJ"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class Other, HOT",
+              "iconDesc": "JABK",
+              "iconId": "BK"
+            },
+            {
+              "iconName": "HazMat DOT Placarding, Class Other Store Away From Food",
+              "iconDesc": "JABL",
+              "iconId": "BL"
+            },
+            {
+              "iconName": "Hazmat General, Option 1",
+              "iconDesc": "JABM",
+              "iconId": "BM"
+            },
+            {
+              "iconName": "Hazmat General, Option 2",
+              "iconDesc": "JABN",
+              "iconId": "BN"
+            },
+            {
+              "iconName": "Hazmat General, Option 3",
+              "iconDesc": "JABO",
+              "iconId": "BO"
+            },
+            {
+              "iconName": "NFPA 704",
+              "iconDesc": "JABP",
+              "iconId": "BP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catName": "Lifelines",
+      "catDesc": "Lifelines",
+      "catId": "K",
+      "frameName": "circle",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "Communications Lifeline",
+          "catDesc": "Communications Lifeline",
+          "catId": "A",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Communications",
+              "iconDesc": "KAA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Communications",
+              "iconDesc": "KAB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Communications: 911 and Dispatch",
+              "iconDesc": "KAC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Communications: 911 and Dispatch",
+              "iconDesc": "KAD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Communications: Alerts, Warnings, and Messages",
+              "iconDesc": "KAE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Communications: Alerts, Warnings, and Messages",
+              "iconDesc": "KAF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Communications: Financial Services",
+              "iconDesc": "KAG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Communications: Financial Services",
+              "iconDesc": "KAH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Communications: Infrastructure",
+              "iconDesc": "KAI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Communications: Infrastructure",
+              "iconDesc": "KAJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Communications: Responder Communications",
+              "iconDesc": "KAK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Communications: Responder Communications",
+              "iconDesc": "KAL",
+              "iconId": "L"
+            }
+          ]
+        },
+        {
+          "catName": "Energy Lifeline",
+          "catDesc": "Energy Lifeline",
+          "catId": "B",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Energy",
+              "iconDesc": "KBA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Energy",
+              "iconDesc": "KBB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Energy: Fuel",
+              "iconDesc": "KBC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Energy: Fuel",
+              "iconDesc": "KBD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Energy: Power",
+              "iconDesc": "KBE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Energy: Power",
+              "iconDesc": "KBF",
+              "iconId": "F"
+            }
+          ]
+        },
+        {
+          "catName": "Food, Water, Shelter Lifeline",
+          "catDesc": "Food, Water, Shelter Lifeline",
+          "catId": "C",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Food, Water, Shelter",
+              "iconDesc": "KCA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Food, Water, Shelter",
+              "iconDesc": "KCB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Food, Water, Shelter: Agriculture",
+              "iconDesc": "KCC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Food, Water, Shelter: Agriculture",
+              "iconDesc": "KCD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Food, Water, Shelter: Food",
+              "iconDesc": "KCE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Food, Water, Shelter: Food",
+              "iconDesc": "KCF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Food, Water, Shelter: Shelter",
+              "iconDesc": "KCG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Food, Water, Shelter: Shelter",
+              "iconDesc": "KCH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Food, Water, Shelter: Water",
+              "iconDesc": "KCI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Food, Water, Shelter: Water",
+              "iconDesc": "KCJ",
+              "iconId": "J"
+            }
+          ]
+        },
+        {
+          "catName": "Hazardous Material Lifeline",
+          "catDesc": "Hazardous Material Lifeline",
+          "catId": "D",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Hazardous Material",
+              "iconDesc": "KDA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Hazardous Material",
+              "iconDesc": "KDB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Hazardous Material: Facilities",
+              "iconDesc": "KDC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Hazardous Material: Facilities",
+              "iconDesc": "KDD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Hazardous Material: HazMat, Pollutants, Contaminants",
+              "iconDesc": "KDE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Hazardous Material: HazMat, Pollutants, Contaminants",
+              "iconDesc": "KDF",
+              "iconId": "F"
+            }
+          ]
+        },
+        {
+          "catName": "Health and Medical Lifeline",
+          "catDesc": "Health and Medical Lifeline",
+          "catId": "E",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Health and Medical",
+              "iconDesc": "KEA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Health and Medical",
+              "iconDesc": "KEB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Health and Medical: Fatality Management",
+              "iconDesc": "KEC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Health and Medical: Fatality Management",
+              "iconDesc": "KED",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Health and Medical: Medical Care",
+              "iconDesc": "KEE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Health and Medical: Medical Care",
+              "iconDesc": "KEF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Health and Medical: Medical Supply Chain",
+              "iconDesc": "KEG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Health and Medical: Medical Supply Chain",
+              "iconDesc": "KEH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Health and Medical: Patient Movement",
+              "iconDesc": "KEI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Health and Medical: Patient Movement",
+              "iconDesc": "KEJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Health and Medical: Public Health",
+              "iconDesc": "KEK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Health and Medical: Public Health",
+              "iconDesc": "KEL",
+              "iconId": "L"
+            }
+          ]
+        },
+        {
+          "catName": "Safety and Security Lifeline",
+          "catDesc": "Safety and Security Lifeline",
+          "catId": "F",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Safety and Security",
+              "iconDesc": "KFA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Safety and Security",
+              "iconDesc": "KFB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Safety and Security: Community Safety",
+              "iconDesc": "KFC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Safety and Security: Community Safety",
+              "iconDesc": "KFD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Safety and Security: Fire Services",
+              "iconDesc": "KFE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Safety and Security: Fire Services",
+              "iconDesc": "KFF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Safety and Security: Government Services",
+              "iconDesc": "KFG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Safety and Security: Government Services",
+              "iconDesc": "KFH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Safety and Security: Law Enforcement / Security",
+              "iconDesc": "KFI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Safety and Security: Law Enforcement / Security",
+              "iconDesc": "KFJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Safety and Security: Search and Rescue",
+              "iconDesc": "KFK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Safety and Security: Search and Rescue",
+              "iconDesc": "KFL",
+              "iconId": "L"
+            }
+          ]
+        },
+        {
+          "catName": "Transportation Lifeline",
+          "catDesc": "Transportation Lifeline",
+          "catId": "G",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Transportation",
+              "iconDesc": "KGA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Transportation",
+              "iconDesc": "KGB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Transportation: Aviation",
+              "iconDesc": "KGC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Transportation: Aviation",
+              "iconDesc": "KGD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Transportation: Highway / Roadway",
+              "iconDesc": "KGE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Transportation: Highway / Roadway",
+              "iconDesc": "KGF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Transportation: Maritime",
+              "iconDesc": "KGG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Transportation: Maritime",
+              "iconDesc": "KGH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Transportation: Mass Transit",
+              "iconDesc": "KGI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Transportation: Mass Transit",
+              "iconDesc": "KGJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Transportation: Railway",
+              "iconDesc": "KGK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Transportation: Railway",
+              "iconDesc": "KGL",
+              "iconId": "L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catName": "Infrastructure",
+      "catDesc": "Infrastructure",
+      "catId": "L",
+      "frameName": "rectangle",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "Agriculture",
+          "catDesc": "Agriculture",
+          "catId": "A",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Animal Aquaculture Facilities",
+              "iconDesc": "LAA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Animal Slaughtering and Processing Facilities",
+              "iconDesc": "LAB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Beef Cattle Ranches and Farms",
+              "iconDesc": "LAC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Botanical and Zoological Gardens",
+              "iconDesc": "LAD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Cattle Feedlots",
+              "iconDesc": "LAE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Dairy Cattle Farms",
+              "iconDesc": "LAF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Fruit and Tree Nut Farms",
+              "iconDesc": "LAG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Greenhouse Nursery and Floriculture Production Facilities",
+              "iconDesc": "LAH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Hog and Pig Farms",
+              "iconDesc": "LAI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Hunting Trapping and Game Propagation Facilities",
+              "iconDesc": "LAJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Oilseed and Grain Farms",
+              "iconDesc": "LAK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Other Crop Farms",
+              "iconDesc": "LAL",
+              "iconId": "L"
+            },
+            {
+              "iconName": "Poultry and Egg Production Farms",
+              "iconDesc": "LAM",
+              "iconId": "M"
+            },
+            {
+              "iconName": "Poultry Slaughtering and Processing Facilities",
+              "iconDesc": "LAN",
+              "iconId": "N"
+            },
+            {
+              "iconName": "State Fairgrounds",
+              "iconDesc": "LAO",
+              "iconId": "O"
+            },
+            {
+              "iconName": "Vegetable and Melon Farms",
+              "iconDesc": "LAP",
+              "iconId": "P"
+            }
+          ]
+        },
+        {
+          "catName": "Border",
+          "catDesc": "Border",
+          "catId": "B",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Canada and Mexico Border Crossing",
+              "iconDesc": "LBA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "US Ports of Entry",
+              "iconDesc": "LBB",
+              "iconId": "B"
+            }
+          ]
+        },
+        {
+          "catName": "Chemical",
+          "catDesc": "Chemical",
+          "catId": "C",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Phosphatic Fertilizer Plants",
+              "iconDesc": "LCA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Nitrogenous Fertilizer Plants",
+              "iconDesc": "LCB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Chemical Manufacturing Facilities",
+              "iconDesc": "LCC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Explosives Manufacturing Facilities",
+              "iconDesc": "LCD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Hazardous Manufacturing",
+              "iconDesc": "LCE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Pharmaceutical Preparation Manufacturing Facilities",
+              "iconDesc": "LCF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "EPA Comprehensive Environmental Response Compensation and Liability Information System Facilities",
+              "iconDesc": "LCG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Biological Products Manufacturing Facilities",
+              "iconDesc": "LCH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Solid Waste Landfill Facilities",
+              "iconDesc": "LCI",
+              "iconId": "I"
+            }
+          ]
+        },
+        {
+          "catName": "Commercial",
+          "catDesc": "Commercial",
+          "catId": "D",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Hotel and Motel",
+              "iconDesc": "LDA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Convenience Store",
+              "iconDesc": "LDB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Grocery Store",
+              "iconDesc": "LDC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Hardware Store",
+              "iconDesc": "LDD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Malls and Shopping Centers",
+              "iconDesc": "LDE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Store",
+              "iconDesc": "LDF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Clothing Store",
+              "iconDesc": "LDG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Office Supply and Service Store",
+              "iconDesc": "LDH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Book Store",
+              "iconDesc": "LDI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Home Improvement and Hardware Store",
+              "iconDesc": "LDJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Sporting Goods Store",
+              "iconDesc": "LDK",
+              "iconId": "K"
+            }
+          ]
+        },
+        {
+          "catName": "Communications",
+          "catDesc": "Communications",
+          "catId": "E",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "AM Transmission Towers",
+              "iconDesc": "LEA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Antenna Structure Registrate",
+              "iconDesc": "LEB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Cellular Towers",
+              "iconDesc": "LEC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "FM Transmission Towers",
+              "iconDesc": "LED",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Microwave Service Towers",
+              "iconDesc": "LEE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Land Mobile Broadcast Towers",
+              "iconDesc": "LEF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Land Mobile Commercial Transmission Towers",
+              "iconDesc": "LEG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Land Mobile Private Transmission Towers",
+              "iconDesc": "LEH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Transmission Towers, Mobile",
+              "iconDesc": "LEI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Paging Transmission Towers",
+              "iconDesc": "LEJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Transmission Towers, Generic",
+              "iconDesc": "LEK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Television Transmission Station Analog",
+              "iconDesc": "LEL",
+              "iconId": "L"
+            },
+            {
+              "iconName": "Television Transmission Station Digital",
+              "iconDesc": "LEM",
+              "iconId": "M"
+            }
+          ]
+        },
+        {
+          "catName": "Education",
+          "catDesc": "Education",
+          "catId": "F",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Child Care Centers",
+              "iconDesc": "LFA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Public Schools",
+              "iconDesc": "LFB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Colleges and Universities",
+              "iconDesc": "LFC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Private Schools",
+              "iconDesc": "LFD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Public Schools",
+              "iconDesc": "LFE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Supplemental Colleges",
+              "iconDesc": "LFF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Truck Driving Schools",
+              "iconDesc": "LFG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Flight Schools",
+              "iconDesc": "LFH",
+              "iconId": "H"
+            }
+          ]
+        },
+        {
+          "catName": "Emergency Services",
+          "catDesc": "Emergency Services",
+          "catId": "G",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "911 Communications Center",
+              "iconDesc": "LGA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Emergency Animal Shelter",
+              "iconDesc": "LGB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "National Shelter System Facilities",
+              "iconDesc": "LGC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Air Medical Service Providers - ADAMS",
+              "iconDesc": "LGD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Emergency Medical Service (EMS) Stations",
+              "iconDesc": "LGE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Fire Station",
+              "iconDesc": "LGF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Emergency Services",
+              "iconDesc": "LGG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Local Emergency Operations Center (EOC)",
+              "iconDesc": "LGH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "State Emergency Operations Centers (EOC)",
+              "iconDesc": "LGI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "American Red Cross Chapter Facilities",
+              "iconDesc": "LGJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "American Red Cross Headquarters",
+              "iconDesc": "LGK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Federal Emergency Management Agency Recovery Offices",
+              "iconDesc": "LGL",
+              "iconId": "L"
+            },
+            {
+              "iconName": "Federal Emergency Management Agency (FEMA) Regional Offices",
+              "iconDesc": "LGM",
+              "iconId": "M"
+            }
+          ]
+        },
+        {
+          "catName": "Energy",
+          "catDesc": "Energy",
+          "catId": "H",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "Biodiesel Plants",
+              "iconDesc": "LHAA",
+              "iconId": "AA"
+            },
+            {
+              "iconName": "Coal Processing",
+              "iconDesc": "LHAB",
+              "iconId": "AB"
+            },
+            {
+              "iconName": "Coal Storage",
+              "iconDesc": "LHAC",
+              "iconId": "AC"
+            },
+            {
+              "iconName": "Diesel Plant",
+              "iconDesc": "LHAD",
+              "iconId": "AD"
+            },
+            {
+              "iconName": "Distribution Control Facilities",
+              "iconDesc": "LHAE",
+              "iconId": "AE"
+            },
+            {
+              "iconName": "Electric Vehicle Charging Station",
+              "iconDesc": "LHAF",
+              "iconId": "AF"
+            },
+            {
+              "iconName": "Power Plants",
+              "iconDesc": "LHAG",
+              "iconId": "AG"
+            },
+            {
+              "iconName": "Electricity Substations",
+              "iconDesc": "LHAH",
+              "iconId": "AH"
+            },
+            {
+              "iconName": "Ethanol Plants",
+              "iconDesc": "LHAI",
+              "iconId": "AI"
+            },
+            {
+              "iconName": "Ethanol Transloading Facilities",
+              "iconDesc": "LHAJ",
+              "iconId": "AJ"
+            },
+            {
+              "iconName": "Liquefied Natural Gas Import Exports and Terminals",
+              "iconDesc": "LHAK",
+              "iconId": "AK"
+            },
+            {
+              "iconName": "Natural Gas Compressor Stations",
+              "iconDesc": "LHAL",
+              "iconId": "AL"
+            },
+            {
+              "iconName": "Natural Gas Import and Export",
+              "iconDesc": "LHAM",
+              "iconId": "AM"
+            },
+            {
+              "iconName": "Natural Gas Market Hubs",
+              "iconDesc": "LHAN",
+              "iconId": "AN"
+            },
+            {
+              "iconName": "Natural Gas Receipt Delivery Points",
+              "iconDesc": "LHAO",
+              "iconId": "AO"
+            },
+            {
+              "iconName": "Non Gasoline Alternative Fueling Stations - Biodiesel",
+              "iconDesc": "LHAP",
+              "iconId": "AP"
+            },
+            {
+              "iconName": "Non Gasoline Alternative Fueling Stations - Hydrogen",
+              "iconDesc": "LHAQ",
+              "iconId": "AQ"
+            },
+            {
+              "iconName": "Non Gasoline Alternative Fueling Stations - Liquefied Propane Gas",
+              "iconDesc": "LHAR",
+              "iconId": "AR"
+            },
+            {
+              "iconName": "Non Gasoline Alternative Fueling Stations - Liquefied Natural Gas",
+              "iconDesc": "LHAS",
+              "iconId": "AS"
+            },
+            {
+              "iconName": "Non Gasoline Alternative Fueling Stations - M85 Methanol",
+              "iconDesc": "LHAT",
+              "iconId": "AT"
+            },
+            {
+              "iconName": "Non Gasoline Alternative Fueling Stations - Ethanol E85",
+              "iconDesc": "LHAU",
+              "iconId": "AU"
+            },
+            {
+              "iconName": "Non Gasoline Alternative Fueling Stations - Electric Charging Station",
+              "iconDesc": "LHAV",
+              "iconId": "AV"
+            },
+            {
+              "iconName": "Non Gasoline Alternative Fueling Stations - Compressed Natural Gas",
+              "iconDesc": "LHAW",
+              "iconId": "AW"
+            },
+            {
+              "iconName": "Natural Gas Processing Plants",
+              "iconDesc": "LHAX",
+              "iconId": "AX"
+            },
+            {
+              "iconName": "Natural Gas Storage Facilities",
+              "iconDesc": "LHAY",
+              "iconId": "AY"
+            },
+            {
+              "iconName": "Natural Gas",
+              "iconDesc": "LHAZ",
+              "iconId": "AZ"
+            },
+            {
+              "iconName": "Oil and Natural Gas Interconnects",
+              "iconDesc": "LHBA",
+              "iconId": "BA"
+            },
+            {
+              "iconName": "Oil and Natural Gas Platforms",
+              "iconDesc": "LHBB",
+              "iconId": "BB"
+            },
+            {
+              "iconName": "Oil and Natural Gas Wells",
+              "iconDesc": "LHBC",
+              "iconId": "BC"
+            },
+            {
+              "iconName": "Oil Refineries",
+              "iconDesc": "LHBD",
+              "iconId": "BD"
+            },
+            {
+              "iconName": "Outer Continental Shelf (OCS) Drilling Platforms",
+              "iconDesc": "LHBE",
+              "iconId": "BE"
+            },
+            {
+              "iconName": "Outer Continental Shelf (OCS) Oil and Natural Gas Wells",
+              "iconDesc": "LHBF",
+              "iconId": "BF"
+            },
+            {
+              "iconName": "Petroleum Ports",
+              "iconDesc": "LHBG",
+              "iconId": "BG"
+            },
+            {
+              "iconName": "Petroleum Processing",
+              "iconDesc": "LHBH",
+              "iconId": "BH"
+            },
+            {
+              "iconName": "Petroleum, Oil and Lubricant (POL) Terminals, Storage Facilities, Tank Farms",
+              "iconDesc": "LHBI",
+              "iconId": "BI"
+            },
+            {
+              "iconName": "POL Pumping Stations",
+              "iconDesc": "LHBJ",
+              "iconId": "BJ"
+            },
+            {
+              "iconName": "Propane Retailer Locations",
+              "iconDesc": "LHBK",
+              "iconId": "BK"
+            },
+            {
+              "iconName": "Strategic and Petroleum Reserves",
+              "iconDesc": "LHBL",
+              "iconId": "BL"
+            },
+            {
+              "iconName": "Gas Station",
+              "iconDesc": "LHBM",
+              "iconId": "BM"
+            },
+            {
+              "iconName": "Energy",
+              "iconDesc": "LHBN",
+              "iconId": "BN"
+            },
+            {
+              "iconName": "Coal",
+              "iconDesc": "LHBO",
+              "iconId": "BO"
+            },
+            {
+              "iconName": "Electricity",
+              "iconDesc": "LHBP",
+              "iconId": "BP"
+            },
+            {
+              "iconName": "Nuclear Research Facility",
+              "iconDesc": "LHBQ",
+              "iconId": "BQ"
+            },
+            {
+              "iconName": "Nuclear Power Plant",
+              "iconDesc": "LHBR",
+              "iconId": "BR"
+            },
+            {
+              "iconName": "Nuclear Fuel Plant",
+              "iconDesc": "LHBS",
+              "iconId": "BS"
+            }
+          ]
+        },
+        {
+          "catName": "Finance",
+          "catDesc": "Finance",
+          "catId": "I",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "FDIC Insured Banks",
+              "iconDesc": "LIA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "NCUA Insured Credit Unions",
+              "iconDesc": "LIB",
+              "iconId": "B"
+            }
+          ]
+        },
+        {
+          "catName": "Food Industry",
+          "catDesc": "Food Industry",
+          "catId": "J",
+          "iconIdLength": 0,
+          "icons": [
+            {
+              "iconName": "Public Refrigerated Warehouses",
+              "iconDesc": "LJA",
+              "iconId": "A"
+            }
+          ]
+        },
+        {
+          "catName": "Government",
+          "catDesc": "Government",
+          "catId": "K",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "City Hall",
+              "iconDesc": "LKA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Courthouse",
+              "iconDesc": "LKB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Major State Governmental Facilities",
+              "iconDesc": "LKC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Governmental Facility",
+              "iconDesc": "LKD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "State Capitol Buildings",
+              "iconDesc": "LKE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Joint Operation Centers (JOC)",
+              "iconDesc": "LKF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Weather Radar Stations",
+              "iconDesc": "LKG",
+              "iconId": "G"
+            }
+          ]
+        },
+        {
+          "catName": "Law Enforcement",
+          "catDesc": "Law Enforcement",
+          "catId": "L",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Bureau of Alcohol Tobacco and Firearms",
+              "iconDesc": "LLA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Department of Interior (DOI) Bureau of Indian Affairs (BIA) Law Enforcement Facilities",
+              "iconDesc": "LLB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Department of Interior (DOI) Bureau of Land Management (BLM) Law Enforcement Facilities",
+              "iconDesc": "LLC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Department of Interior (DOI) Bureau of Reclamation (BOR) Law Enforcement Facilities",
+              "iconDesc": "LLD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Department of Interior (DOI) Fish and Wildlife Service (FWS) Law Enforcement Facilities",
+              "iconDesc": "LLE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Department of Interior (DOI) National Park Service (NPS) Law Enforcement Facilities",
+              "iconDesc": "LLF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Department of Interior (DOI) US-Park Police (USPP) Law Enforcement Facilities",
+              "iconDesc": "LLG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Drug Enforcement Agency",
+              "iconDesc": "LLH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Federal Bureau of Investigaton (FBI) Offices",
+              "iconDesc": "LLI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Department of Homeland Security (DHS) Immigration and Customs Enforcement (ICE) Facilities",
+              "iconDesc": "LLJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "US Customs and Border Protection (CBP) Office of Field Operations OFO Container Security Initiative CSI Locations",
+              "iconDesc": "LLK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "US Customs and Border Protection (CBP) Office of Field Operations OFO Facilities",
+              "iconDesc": "LLL",
+              "iconId": "L"
+            },
+            {
+              "iconName": "US Customs and Border Protection (CBP) Office of Field Operations OFO Sector Headquarters",
+              "iconDesc": "LLM",
+              "iconId": "M"
+            },
+            {
+              "iconName": "US Customs and Border Protection (CBP) US Border Patrol USBP Stations",
+              "iconDesc": "LLN",
+              "iconId": "N"
+            },
+            {
+              "iconName": "Law Enforcement Locations",
+              "iconDesc": "LLO",
+              "iconId": "O"
+            },
+            {
+              "iconName": "US Marshal Service",
+              "iconDesc": "LLP",
+              "iconId": "P"
+            },
+            {
+              "iconName": "US Postal Service (USPS) Postal Inspection Service Facilities",
+              "iconDesc": "LLQ",
+              "iconId": "Q"
+            },
+            {
+              "iconName": "Law, Generic",
+              "iconDesc": "LLR",
+              "iconId": "R"
+            }
+          ]
+        },
+        {
+          "catName": "Natural Hazard Infrastructure",
+          "catDesc": "Natural Hazard Infrastructure",
+          "catId": "M",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Tsunami Tide Gauges",
+              "iconDesc": "LMA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Streamflow Gaging Stations",
+              "iconDesc": "LMB",
+              "iconId": "B"
+            }
+          ]
+        },
+        {
+          "catName": "Public Health",
+          "catDesc": "Public Health",
+          "catId": "N",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Nursing Home",
+              "iconDesc": "LNA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Blood and Organ Banks",
+              "iconDesc": "LNB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Cemeteries and Crematories",
+              "iconDesc": "LNC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Funeral Homes and Funeral Service Facilities",
+              "iconDesc": "LND",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Hospitals",
+              "iconDesc": "LNE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Pharmacies",
+              "iconDesc": "LNF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Public Health Departments",
+              "iconDesc": "LNG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Centers for Disease Control",
+              "iconDesc": "LNH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Kidney Dialysis Centers",
+              "iconDesc": "LNI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Urgent Care Facilities",
+              "iconDesc": "LNJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Veterans Health Administration Medical Clinic",
+              "iconDesc": "LNK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Veterans Health Administration Medical Facilities",
+              "iconDesc": "LNL",
+              "iconId": "L"
+            },
+            {
+              "iconName": "Veterinary Service Facilities",
+              "iconDesc": "LNM",
+              "iconId": "M"
+            }
+          ]
+        },
+        {
+          "catName": "Public Venue",
+          "catDesc": "Public Venue",
+          "catId": "O",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Major Sport Venues",
+              "iconDesc": "LOA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "State, County and Local Parks",
+              "iconDesc": "LOB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Mobile Home Park",
+              "iconDesc": "LOC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "All Places of Worship",
+              "iconDesc": "LOD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Amusement and Theme Parks",
+              "iconDesc": "LOE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Campground",
+              "iconDesc": "LOF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Casinos",
+              "iconDesc": "LOG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Catholic Churches",
+              "iconDesc": "LOH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Community Centers",
+              "iconDesc": "LOI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Convention Centers",
+              "iconDesc": "LOJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Cruise Line Terminals",
+              "iconDesc": "LOK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Drinking Establishments",
+              "iconDesc": "LOL",
+              "iconId": "L"
+            },
+            {
+              "iconName": "Golf Courses",
+              "iconDesc": "LOM",
+              "iconId": "M"
+            },
+            {
+              "iconName": "Highways Rest Areas",
+              "iconDesc": "LON",
+              "iconId": "N"
+            },
+            {
+              "iconName": "Historic Sites",
+              "iconDesc": "LOO",
+              "iconId": "O"
+            },
+            {
+              "iconName": "Jewish Synagogues",
+              "iconDesc": "LOP",
+              "iconId": "P"
+            },
+            {
+              "iconName": "Libraries",
+              "iconDesc": "LOQ",
+              "iconId": "Q"
+            },
+            {
+              "iconName": "Marinas",
+              "iconDesc": "LOR",
+              "iconId": "R"
+            },
+            {
+              "iconName": "Mosques",
+              "iconDesc": "LOS",
+              "iconId": "S"
+            },
+            {
+              "iconName": "Museums",
+              "iconDesc": "LOT",
+              "iconId": "T"
+            },
+            {
+              "iconName": "Protestant Churches",
+              "iconDesc": "LOU",
+              "iconId": "U"
+            },
+            {
+              "iconName": "Ski Resorts",
+              "iconDesc": "LOV",
+              "iconId": "V"
+            },
+            {
+              "iconName": "Theater and Performing Arts Centers",
+              "iconDesc": "LOW",
+              "iconId": "W"
+            },
+            {
+              "iconName": "Tourist Attractions",
+              "iconDesc": "LOX",
+              "iconId": "X"
+            },
+            {
+              "iconName": "Vineyards and Wineries",
+              "iconDesc": "LOY",
+              "iconId": "Y"
+            }
+          ]
+        },
+        {
+          "catName": "Transportation, Air",
+          "catDesc": "Transportation, Air",
+          "catId": "P",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Aerial Obstructions",
+              "iconDesc": "LPA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Aircraft Landing Facilities, Commercial",
+              "iconDesc": "LPB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Aircraft Landing Facilities, General Aviation",
+              "iconDesc": "LPC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Aircraft Landing Facilities, Heliport",
+              "iconDesc": "LPD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Aircraft Landing Facilities, Seaplane",
+              "iconDesc": "LPE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Aircraft Landing Facilities, Balloon Port",
+              "iconDesc": "LPF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Aircraft Landing Facilities, Glider Port",
+              "iconDesc": "LPG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Aircraft Landing Facilities, Ultralight",
+              "iconDesc": "LPH",
+              "iconId": "H"
+            }
+          ]
+        },
+        {
+          "catName": "Transportation, Ground",
+          "catDesc": "Transportation, Ground",
+          "catId": "Q",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Amtrak Stations - Train",
+              "iconDesc": "LQA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Amtrak Stations - Bus",
+              "iconDesc": "LQB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Railroad Bridges",
+              "iconDesc": "LQC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Rail Junctions",
+              "iconDesc": "LQD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Railroad Yards",
+              "iconDesc": "LQE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "National Bridge Inventory (NBI) Bridges",
+              "iconDesc": "LQF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Bus Station",
+              "iconDesc": "LQG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Railroad Stations, Line Haul Railroads",
+              "iconDesc": "LQH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Railroad Stations, Commuter Rail Systems",
+              "iconDesc": "LQI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Intermodal Terminal Facilities",
+              "iconDesc": "LQJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Road and Railroad Tunnels",
+              "iconDesc": "LQK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Fixed Guideway Transit Stations",
+              "iconDesc": "LQL",
+              "iconId": "L"
+            }
+          ]
+        },
+        {
+          "catName": "Transportation, Water",
+          "catDesc": "Transportation, Water",
+          "catId": "R",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Ferry Locations",
+              "iconDesc": "LRA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Major US Port Facilities",
+              "iconDesc": "LRB",
+              "iconId": "B"
+            }
+          ]
+        },
+        {
+          "catName": "Water Supply",
+          "catDesc": "Water Supply",
+          "catId": "S",
+          "iconIdLength": 1,
+          "icons": [
+            {
+              "iconName": "Air Water Solid Waste Management Plants",
+              "iconDesc": "LSA",
+              "iconId": "A"
+            },
+            {
+              "iconName": "Drinking Water Source",
+              "iconDesc": "LSB",
+              "iconId": "B"
+            },
+            {
+              "iconName": "Drinking Water Source, Federal Government",
+              "iconDesc": "LSC",
+              "iconId": "C"
+            },
+            {
+              "iconName": "Drinking Water Source, Local Government",
+              "iconDesc": "LSD",
+              "iconId": "D"
+            },
+            {
+              "iconName": "Drinking Water Source, Native American",
+              "iconDesc": "LSE",
+              "iconId": "E"
+            },
+            {
+              "iconName": "Drinking Water Source, Private",
+              "iconDesc": "LSF",
+              "iconId": "F"
+            },
+            {
+              "iconName": "Drinking Water Source, Public Private",
+              "iconDesc": "LSG",
+              "iconId": "G"
+            },
+            {
+              "iconName": "Drinking Water Source, State Government",
+              "iconDesc": "LSH",
+              "iconId": "H"
+            },
+            {
+              "iconName": "Drinking Water Storage",
+              "iconDesc": "LSI",
+              "iconId": "I"
+            },
+            {
+              "iconName": "Environmental Protection Agency (EPA) Facility Registry Service (FRS) Wastewater Treatment Plants",
+              "iconDesc": "LSJ",
+              "iconId": "J"
+            },
+            {
+              "iconName": "Water System Community Water System, Drinking Water Treatment Plants",
+              "iconDesc": "LSK",
+              "iconId": "K"
+            },
+            {
+              "iconName": "Water System Non Transient non community system, Drinking Water Treatment Plants",
+              "iconDesc": "LSL",
+              "iconId": "L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catName": "Hazard",
+      "catDesc": "Hazard",
+      "catId": "M",
+      "subcatIdLength": 1,
+      "subcategories": [
+        {
+          "catName": "Hazard Points Detailed",
+          "catDesc": "Hazard Points Detailed",
+          "catId": "A",
+          "frameName": "diamond",
+          "iconIdLength": 2,
+          "icons": [
+            {
+              "iconName": "Aerial Hazard",
+              "iconDesc": "MAAA",
+              "iconId": "AA"
+            },
+            {
+              "iconName": "Biohazard",
+              "iconDesc": "MAAB",
+              "iconId": "AB"
+            },
+            {
+              "iconName": "Bowstring Truss",
+              "iconDesc": "MAAC",
+              "iconId": "AC"
+            },
+            {
+              "iconName": "Building Over or Next to Water",
+              "iconDesc": "MAAD",
+              "iconId": "AD"
+            },
+            {
+              "iconName": "Close Exposure",
+              "iconDesc": "MAAE",
+              "iconId": "AE"
+            },
+            {
+              "iconName": "Collapse Likely",
+              "iconDesc": "MAAF",
+              "iconId": "AF"
+            },
+            {
+              "iconName": "Common Attic",
+              "iconDesc": "MAAG",
+              "iconId": "AG"
+            },
+            {
+              "iconName": "Confined Space",
+              "iconDesc": "MAAH",
+              "iconId": "AH"
+            },
+            {
+              "iconName": "DO NOT ENTER Building",
+              "iconDesc": "MAAI",
+              "iconId": "AI"
+            },
+            {
+              "iconName": "DO NOT USE Water",
+              "iconDesc": "MAAJ",
+              "iconId": "AJ"
+            },
+            {
+              "iconName": "Electrical Hazards",
+              "iconDesc": "MAAK",
+              "iconId": "AK"
+            },
+            {
+              "iconName": "Evacuation Hazards",
+              "iconDesc": "MAAL",
+              "iconId": "AL"
+            },
+            {
+              "iconName": "Fall Hazards",
+              "iconDesc": "MAAM",
+              "iconId": "AM"
+            },
+            {
+              "iconName": "General Hazards",
+              "iconDesc": "MAAN",
+              "iconId": "AN"
+            },
+            {
+              "iconName": "Hazardous Entry Violent",
+              "iconDesc": "MAAO",
+              "iconId": "AO"
+            },
+            {
+              "iconName": "Hazardous Entry",
+              "iconDesc": "MAAP",
+              "iconId": "AP"
+            },
+            {
+              "iconName": "Hazardous Shaft",
+              "iconDesc": "MAAQ",
+              "iconId": "AQ"
+            },
+            {
+              "iconName": "Hazardous Voids",
+              "iconDesc": "MAAR",
+              "iconId": "AR"
+            },
+            {
+              "iconName": "High Fire Load",
+              "iconDesc": "MAAS",
+              "iconId": "AS"
+            },
+            {
+              "iconName": "High Occupancy Load",
+              "iconDesc": "MAAT",
+              "iconId": "AT"
+            },
+            {
+              "iconName": "High Pile Storage",
+              "iconDesc": "MAAU",
+              "iconId": "AU"
+            },
+            {
+              "iconName": "Lightweight Floor",
+              "iconDesc": "MAAV",
+              "iconId": "AV"
+            },
+            {
+              "iconName": "Lightweight Roof",
+              "iconDesc": "MAAW",
+              "iconId": "AW"
+            },
+            {
+              "iconName": "Magnetic Hazards",
+              "iconDesc": "MAAX",
+              "iconId": "AX"
+            },
+            {
+              "iconName": "ManTrap or Entrapment",
+              "iconDesc": "MAAY",
+              "iconId": "AY"
+            },
+            {
+              "iconName": "No Roof Operations",
+              "iconDesc": "MAAZ",
+              "iconId": "AZ"
+            },
+            {
+              "iconName": "No Water Supply",
+              "iconDesc": "MABA",
+              "iconId": "BA"
+            },
+            {
+              "iconName": "Not Occupied or Abandoned",
+              "iconDesc": "MABB",
+              "iconId": "BB"
+            },
+            {
+              "iconName": "Poison",
+              "iconDesc": "MABC",
+              "iconId": "BC"
+            },
+            {
+              "iconName": "Poor or No Radio Reception",
+              "iconDesc": "MABD",
+              "iconId": "BD"
+            },
+            {
+              "iconName": "Powerline Above",
+              "iconDesc": "MABE",
+              "iconId": "BE"
+            },
+            {
+              "iconName": "Radioactive",
+              "iconDesc": "MABF",
+              "iconId": "BF"
+            },
+            {
+              "iconName": "Safety Zone, Gun Cover",
+              "iconDesc": "MABG",
+              "iconId": "BG"
+            },
+            {
+              "iconName": "Slip Hazards",
+              "iconDesc": "MABH",
+              "iconId": "BH"
+            },
+            {
+              "iconName": "Soft Soil",
+              "iconDesc": "MABI",
+              "iconId": "BI"
+            },
+            {
+              "iconName": "Truss, General",
+              "iconDesc": "MABJ",
+              "iconId": "BJ"
+            },
+            {
+              "iconName": "Truss, Metal",
+              "iconDesc": "MABK",
+              "iconId": "BK"
+            },
+            {
+              "iconName": "Truss, Wood I Beam",
+              "iconDesc": "MABL",
+              "iconId": "BL"
+            },
+            {
+              "iconName": "Truss, Wood",
+              "iconDesc": "MABM",
+              "iconId": "BM"
+            },
+            {
+              "iconName": "HazMat Tank, Horizontal",
+              "iconDesc": "MABN",
+              "iconId": "BN"
+            },
+            {
+              "iconName": "HazMat Tank, Underground",
+              "iconDesc": "MABO",
+              "iconId": "BO"
+            },
+            {
+              "iconName": "HazMat Tank, Vertical",
+              "iconDesc": "MABP",
+              "iconId": "BP"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "decName": "cellphone"
+    }
+  ],
+  "colors": [
+    {
+      "colorName": "dhs-red",
+      "colorString": "#FF181E"
+    },
+    {
+      "colorName": "dhs-green",
+      "colorString": "#00AC3A"
+    },
+    {
+      "colorName": "dhs-blue",
+      "colorString": "#237ACF"
+    },
+    {
+      "colorName": "dhs-yellow",
+      "colorString": "#FFD718"
+    },
+    {
+      "colorName": "dhs-orange",
+      "colorString": "#FF8918"
+    },
+    {
+      "colorName": "dhs-purple",
+      "colorString": "#ED1AFC"
+    },
+    {
+      "colorName": "dhs-grey",
+      "colorString": "#BFBFBF"
+    }
+  ]
+}

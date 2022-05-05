@@ -1,0 +1,552 @@
+{
+	"info": {
+		"_postman_id": "7998069a-1600-4516-99ea-7c955e3fdafb",
+		"name": "DHS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AAA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2526/AAA.svg?frameColor=Blue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2526",
+					"path": [
+						"AAA.svg"
+					],
+					"query": [
+						{
+							"key": "frameColor",
+							"value": "Blue"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AAA All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2526/AAA.svg?frameName=custom-x&frameColor=green&outline=true&outlineColor=yellow&padding=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2526",
+					"path": [
+						"AAA.svg"
+					],
+					"query": [
+						{
+							"key": "fill",
+							"value": "false",
+							"disabled": true
+						},
+						{
+							"key": "fillColor",
+							"value": "white",
+							"disabled": true
+						},
+						{
+							"key": "fillOpacity",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "frame",
+							"value": "false",
+							"disabled": true
+						},
+						{
+							"key": "frameName",
+							"value": "custom-x"
+						},
+						{
+							"key": "frameColor",
+							"value": "green"
+						},
+						{
+							"key": "frameWidth",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "icon",
+							"value": "false",
+							"disabled": true
+						},
+						{
+							"key": "iconScale",
+							"value": ".75",
+							"disabled": true
+						},
+						{
+							"key": "iconColor",
+							"value": "red",
+							"disabled": true
+						},
+						{
+							"key": "monoColor",
+							"value": "purple",
+							"disabled": true
+						},
+						{
+							"key": "outline",
+							"value": "true"
+						},
+						{
+							"key": "outlineColor",
+							"value": "yellow"
+						},
+						{
+							"key": "outlineWidth",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "padding",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "256",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AAA Outline Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2526/AAA.svg?frameColor=Blue&outline=true&outlineColor=Yellow&outlineWidth=8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2526",
+					"path": [
+						"AAA.svg"
+					],
+					"query": [
+						{
+							"key": "frameColor",
+							"value": "Blue"
+						},
+						{
+							"key": "outline",
+							"value": "true"
+						},
+						{
+							"key": "outlineColor",
+							"value": "Yellow"
+						},
+						{
+							"key": "outlineWidth",
+							"value": "8"
+						},
+						{
+							"key": "size",
+							"value": "256",
+							"disabled": true
+						},
+						{
+							"key": "padding",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "frameWidth",
+							"value": "2",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AAA Mono Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2526/AAA.svg?frameColor=Blue&monoColor=Green",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2526",
+					"path": [
+						"AAA.svg"
+					],
+					"query": [
+						{
+							"key": "frameColor",
+							"value": "Blue"
+						},
+						{
+							"key": "monoColor",
+							"value": "Green"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AAA Icon Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2526/AAA.svg?frameColor=Blue&icon=true&iconScale=.75&iconColor=red",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2526",
+					"path": [
+						"AAA.svg"
+					],
+					"query": [
+						{
+							"key": "frameColor",
+							"value": "Blue"
+						},
+						{
+							"key": "icon",
+							"value": "true"
+						},
+						{
+							"key": "iconScale",
+							"value": ".75"
+						},
+						{
+							"key": "iconColor",
+							"value": "red"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AAA Size Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2526/AAA.svg?frameColor=Blue&size=128&padding=20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2526",
+					"path": [
+						"AAA.svg"
+					],
+					"query": [
+						{
+							"key": "frameColor",
+							"value": "Blue"
+						},
+						{
+							"key": "size",
+							"value": "128"
+						},
+						{
+							"key": "padding",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AAA Frame Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2526/AAA.svg?frameName=pentagon&frameWidth=6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2526",
+					"path": [
+						"AAA.svg"
+					],
+					"query": [
+						{
+							"key": "frameName",
+							"value": "pentagon"
+						},
+						{
+							"key": "frameWidth",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AAA Fill Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2526/AAA.svg?frameColor=Blue&fill=true&fillColor=Green&fillOpacity=.5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2526",
+					"path": [
+						"AAA.svg"
+					],
+					"query": [
+						{
+							"key": "frameColor",
+							"value": "Blue"
+						},
+						{
+							"key": "fill",
+							"value": "true"
+						},
+						{
+							"key": "fillColor",
+							"value": "Green"
+						},
+						{
+							"key": "fillOpacity",
+							"value": ".5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AAA Badge Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2526/AAA.svg?frameColor=Blue&badgeCount=11&padding=0&outline=true&outlineColor=yellow&frameName=octagon&decoratorLocation=both&decorator={ name\": \"cellphone\" }&decorator={ \"name\": \"cellphone\", \"monoColor\":\"red\", \"scale\": 0.1 }&decorator={ \"name\": \"cellphone\", \"frameColor\": \"green\" }&decorator={ \"name\" : \"cellphone\", \"monoColor\": \"blue\", \"frameColor\": \"black\", \"fill\": true }&decorator={ \"name\" : \"cellphone\", \"monoColor\": \"orange\"  }&decorator={ \"name\" : \"cellphone\", \"fill\": true, \"fillColor\":\"grey\", \"iconColor\":\"white\", \"fillOpacity\":0.5 }&decorator={ \"name\" : \"cellphone\", \"monoColor\": \"purple\"  }&decorator={ \"name\" : \"cellphone\", \"monoColor\": \"yellow\"  }&fill=true&fillColor=%2300FF00&fillOpacity=0.5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2526",
+					"path": [
+						"AAA.svg"
+					],
+					"query": [
+						{
+							"key": "frameColor",
+							"value": "Blue"
+						},
+						{
+							"key": "badgeCount",
+							"value": "11"
+						},
+						{
+							"key": "size",
+							"value": "100",
+							"disabled": true
+						},
+						{
+							"key": "padding",
+							"value": "0"
+						},
+						{
+							"key": "outline",
+							"value": "true"
+						},
+						{
+							"key": "outlineColor",
+							"value": "yellow"
+						},
+						{
+							"key": "badgeRadius",
+							"value": "25",
+							"disabled": true
+						},
+						{
+							"key": "badgeTextColor",
+							"value": "white",
+							"disabled": true
+						},
+						{
+							"key": "badgeFillColor",
+							"value": "red",
+							"disabled": true
+						},
+						{
+							"key": "badgeFontSize",
+							"value": "24",
+							"disabled": true
+						},
+						{
+							"key": "frameName",
+							"value": "octagon"
+						},
+						{
+							"key": "iconScale",
+							"value": ".75",
+							"disabled": true
+						},
+						{
+							"key": "decoratorLocation",
+							"value": "both"
+						},
+						{
+							"key": "decoratorMaxCount",
+							"value": "4",
+							"disabled": true
+						},
+						{
+							"key": "decorator",
+							"value": "{ name\": \"cellphone\" }"
+						},
+						{
+							"key": "decorator",
+							"value": "{ \"name\": \"cellphone\", \"monoColor\":\"red\", \"scale\": 0.1 }"
+						},
+						{
+							"key": "decorator",
+							"value": "{ \"name\": \"cellphone\", \"frameColor\": \"green\" }"
+						},
+						{
+							"key": "decorator",
+							"value": "{ \"name\" : \"cellphone\", \"monoColor\": \"blue\", \"frameColor\": \"black\", \"fill\": true }"
+						},
+						{
+							"key": "decorator",
+							"value": "{ \"name\" : \"cellphone\", \"monoColor\": \"orange\"  }"
+						},
+						{
+							"key": "decorator",
+							"value": "{ \"name\" : \"cellphone\", \"fill\": true, \"fillColor\":\"grey\", \"iconColor\":\"white\", \"fillOpacity\":0.5 }"
+						},
+						{
+							"key": "decorator",
+							"value": "{ \"name\" : \"cellphone\", \"monoColor\": \"purple\"  }"
+						},
+						{
+							"key": "decorator",
+							"value": "{ \"name\" : \"cellphone\", \"monoColor\": \"yellow\"  }"
+						},
+						{
+							"key": "fill",
+							"value": "true"
+						},
+						{
+							"key": "fillColor",
+							"value": "#00FF00"
+						},
+						{
+							"key": "fillOpacity",
+							"value": "0.5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AAB",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2526/AAB.svg?frameColor=rgb(255,0,255)",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2526",
+					"path": [
+						"AAB.svg"
+					],
+					"query": [
+						{
+							"key": "frameColor",
+							"value": "rgb(255,0,255)"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AAC",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2526/AAC.svg?frameColor=%23FF0000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2526",
+					"path": [
+						"AAC.svg"
+					],
+					"query": [
+						{
+							"key": "frameColor",
+							"value": "%23FF0000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IAD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2526/IAD.svg?frameColor=%23FF0000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2526",
+					"path": [
+						"IAD.svg"
+					],
+					"query": [
+						{
+							"key": "frameColor",
+							"value": "%23FF0000"
+						}
+					]
+				},
+				"description": "Hurricane"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
