@@ -381,6 +381,11 @@
               "iconName": "Hazard No Aerial Access",
               "iconDesc": "BABJ",
               "iconId": "BJ"
+            },
+            {
+              "iconName": "Hazard No Aerial Access COPY",
+              "iconDesc": "BABK",
+              "iconId": "BK"
             }
           ]
         },
