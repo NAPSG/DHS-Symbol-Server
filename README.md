@@ -3,6 +3,8 @@ DHS symbol Library Tool from Dignitas.  Used for public safety mapping.  Files i
 
 ## Access the symbols by categories:
  - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Access%20Hazards">Access Hazards</a>
+     - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Access%20Hazards/Emergency%20Access%20Hazards#readme">Emergency Access Hazards</a>
+     - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Access%20Hazards/Emergency%20Access%20Points#readme">Emergency Access Points</a>
  - Hazard/Hazard Points Detailed
  - Hazardous Materials/Hazardous Materials
  - Human Caused Hazards/Human Caused Hazards
