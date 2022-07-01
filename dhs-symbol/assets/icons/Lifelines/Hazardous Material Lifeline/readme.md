@@ -1,0 +1,1 @@
+Hazardous Material Lifeline<br>Click on the icons below to access the symbols<br><a href='https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Hazardous Material Lifeline'>Download this folder by clicking here</a><br>
