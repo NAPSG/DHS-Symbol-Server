@@ -18,13 +18,13 @@ DHS symbol Library Tool from Dignitas.  Used for public safety mapping.  Files i
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Agriculture#readme">Agriculture</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Border#readme">Border</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Chemical#readme">Chemical</a>
-     - <a href="">Commerial</a>
+     - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Commercial#commercial">Commerial</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Communications#readme">Communications</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Education#readme">Education</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Emergency%20Services#readme">Emergency Services</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Energy#readme">Energy</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Finance#readme">Finanace</a>
-     - <a href="">Food Industry</a>
+     - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Food%20Industry#food-industry">Food Industry</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Government#readme">Government</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Law%20Enforcement#readme">Law Enforcement</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Law%20Enforcement#readme">Natural Hazard Infrastructure</a>
@@ -35,7 +35,7 @@ DHS symbol Library Tool from Dignitas.  Used for public safety mapping.  Files i
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Transportation%2C%20Water#readme">Transportation, Water</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Infrastructure/Water%20Supply#readme">Water Supply</a>
  - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Lifelines">Lifelines</a>
-     - <a href="">Communications Lifeline</a>
+     - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Lifelines/Communications_Lifeline#communications-lifeline">Communications Lifeline</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Lifelines/Energy%20Lifeline#readme">Energy Lifeline</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Lifelines/Food%2C%20Water%2C%20Shelter%20Lifeline#readme">Food, Water, and Shelter Lifeline</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Lifelines/Hazardous%20Material%20Lifeline#readme">Hazardous Material Lifeline</a>
