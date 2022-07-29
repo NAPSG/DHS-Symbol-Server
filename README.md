@@ -4,6 +4,8 @@
 
 DHS symbol Library Tool from Dignitas.  Used for public safety mapping.  Files include svg files, 
 
+To view licensing infomraiton, see the <a href="https://github.com/NAPSG/DHS-Symbol-Server/blob/main/LICENSE.txt">LICENSE.txt</a> file.
+
 ## Access the symbols by categories:
  - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Access%20Hazards">Access Hazards</a>
      - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Access%20Hazards/Emergency%20Access%20Hazards#readme">Emergency Access Hazards</a>
