@@ -1,4 +1,12 @@
 /**
+ * Copyright (c) Dignitas Technologies, LLC
+ *
+ * This file and its contents are governed by one or more distribution and
+ * copyright statements as described in the LICENSE.txt file distributed with
+ * this work.
+ */
+
+/**
  * Icon Badge Options
  */
 export interface BadgeOptions {
