@@ -1,3 +1,10 @@
+/**
+ * Copyright (c) Dignitas Technologies, LLC
+ *
+ * This file and its contents are governed by one or more distribution and
+ * copyright statements as described in the LICENSE.txt file distributed with
+ * this work.
+ */
 // returns a window with a document and an svg root node
 // note: cannot use import for some reason
 // eslint-disable-next-line @typescript-eslint/no-var-requires
