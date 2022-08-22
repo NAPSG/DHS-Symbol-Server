@@ -1,3 +1,10 @@
+/**
+ * Copyright (c) Dignitas Technologies, LLC
+ *
+ * This file and its contents are governed by one or more distribution and
+ * copyright statements as described in the LICENSE.txt file distributed with
+ * this work.
+ */
 import { argv } from 'yargs';
 import * as http from 'http';
 import * as os from 'os';
