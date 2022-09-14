@@ -5,6 +5,8 @@
 DHS symbol Library Tool from Dignitas.  Used for public safety mapping.  Files include svg files, 
 
 To view licensing information, see the <a href="https://github.com/NAPSG/DHS-Symbol-Server/blob/main/LICENSE.txt">LICENSE.txt</a> file.
+## Background
+The symbol set and attached code were developed by Dignitas in support of the DHS S&T Research Project entitled the Augmented Reality Sandtable (AReS). AReS is a distributed interactive visualization architecture enabling real-time collaboration, mission planning, rehearsal, command and control, training, and after-action review.  The AReS consists of multiple modalities including a physical sandtable augmentation with mixed reality devices; mobile devices; floor projection with mixed reality for larger groups; and mixed reality and virtual reality head-mounted devices. 
 
 ## Access the symbols by categories:
  - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Access%20Hazards">Access Hazards</a>
