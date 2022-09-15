@@ -11,15 +11,15 @@ The symbol set and attached code were developed by Dignitas in support of the DH
 <img src="https://github.com/NAPSG/DHS-Symbol-Server/blob/main/Sandbox-ARES.png" alt="Sandbox" width="650" height="500">
 Figure 1. DHS S&T Augmented Reality Sandtable
 Through its contractor, the DHS S&T Modeling & Simulation Technology Center provided NAPSG Foundation with a set of symbols based on existing symbols in the NAPSG Library to make available for access by public safety organizations. The delivery included: 
--	SVGs for each NAPSG Symbol (as of September 2021)
--	Code to generate symbol for use in but not limited to AReS platforms 
--	Read Me file with instructions
+ -	SVGs for each NAPSG Symbol (as of September 2021)
+ -	Code to generate symbol for use in but not limited to AReS platforms 
+ -	Read Me file with instructions
 
 ## Target Audience and Users
-•	U.S. Border Patrol 
-•	Federal Law Enforcement Training
-•	Public Safety Agencies
-•	Geospatial Practitioners
+ •	U.S. Border Patrol 
+ •	Federal Law Enforcement Training
+ •	Public Safety Agencies
+ •	Geospatial Practitioners
 
 ## Access the symbols by categories:
  - <a href="https://github.com/NAPSG/DHS-Symbol-Server/tree/main/dhs-symbol/assets/icons/Access%20Hazards">Access Hazards</a>
