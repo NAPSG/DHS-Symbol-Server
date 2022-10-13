@@ -34,7 +34,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5",
     "svg-to-ts": "^5.0.1",
-    "terser": "^5.3.0",
+    "terser": "^5.14.2",
     "typescript": "^3.9.7"
   },
   "dependencies": {
